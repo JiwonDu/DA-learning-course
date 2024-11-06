@@ -1,12 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
-* {
-    font-family: 'Montserrat';
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --highlight-color: #4a90e2;
 }
+
 body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
     margin: 0px;
     padding: 0px;
     min-width: fit-content;
+    font-family: 'Montserrat';
 }
+
+.dark-mode {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+    --highlight-color: #64b5f6;
+}
+
+#darkModeToggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.title-container {
+    transition: transform 0.3s ease-in-out;
+}
+
+.title-container:hover {
+    transform: scale(1.05);
+}
+
+.frog {
+    transition: transform 0.3s ease-in-out;
+}
+
+.frog:hover {
+    transform: rotate(10deg);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--highlight-color);
+    color: var(--bg-color);
+}
+
+#typing-text {
+    font-style: italic;
+    min-height: 1.5em;
+}
+
 .navbar {
     background-color: #333;
     overflow: hidden;
@@ -14,6 +64,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .navbar a {
     color: #f2f2f2;
     text-align: center;
@@ -21,23 +72,28 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
+
 .navbar a:hover {
     background-color: #ddd;
     color: black;
 }
+
 .navbar .nav-links {
     display: flex;
     align-items: center;
 }
+
 .audio-player {
     color: #f2f2f2;
     background-color: #333;
     border: none;
 }
+
 .audio-player::-webkit-media-controls-panel {
     background-color: #333;
     color: #f2f2f2;
 }
+
 .mainbox {
     width: 610px;
     padding: 30px;
@@ -45,9 +101,11 @@ body {
     border: 1px solid black;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
 section {
     margin-bottom: 24px;
 }
+
 h1 {
     margin: 0px;
     padding: 0px;
@@ -56,6 +114,7 @@ h1 {
     font-style: italic;
     margin-bottom: 8px;
 }
+
 h2 {
     margin: 0px;
     padding: 0px;
@@ -66,18 +125,21 @@ h2 {
     border-bottom: 1px solid #3d3c3c;
     padding-bottom: 5px;
 }
+
 .title-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
 }
+
 .frog {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-right: 20px;
 }
+
 .title {
     font-size: 16px;
     color: #7c7c7c;
@@ -85,17 +147,21 @@ h2 {
     margin-top: 5px;
     line-height: 16px;
 }
+
 .sns {
     text-align: left;
 }
+
 .sns-img {
     width: 30px;
     height: 30px;
 }
+
 .float-wrap {
     overflow: hidden;
     margin-bottom: 4px;
 }
+
 .text {
     line-height: 16px;
     font-size: 13px;
@@ -103,36 +169,109 @@ h2 {
     color: black;
     margin-bottom: 6px;
 }
+
 .subtext {
     font-size: 13px;
     color: #3a3a3a;
     padding-left: 16px;
     margin-bottom: 8px;
 }
+
 .righttext {
     font-size: 11px;
     font-weight: 300;
     color: #282828;
     float: right;
 }
+
 table {
     width: 80%;
     margin: auto;
     border-collapse: collapse;
 }
+
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
     width: calc(100% / 7);
 }
+
 th {
     background-color: #f2f2f2;
 }
+
 footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
     color: #fff;
     margin-top: 40px;
+}
+
+@keyframes blinker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.blink {
+  animation: blinker 2s linear infinite;
+}
+
+
+.dark-mode {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+    --highlight-color: #64b5f6;
+}
+
+.dark-mode .text,
+.dark-mode .subtext,
+.dark-mode table,
+.dark-mode th,
+.dark-mode td {
+    color: var(--text-color);
+}
+
+.dark-mode th {
+    background-color: #333;
+}
+
+.dark-mode .mainbox {
+    border-color: var(--text-color);
+}
+
+/* message.html 스타일 */
+#messageForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#messageForm input[type="button"] {
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#messageForm input[type="button"]:hover {
+    background-color: #3071a9;
+}
+
+#messageContainer p {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.dark-mode #messageContainer p {
+    background-color: #333;
+    color: var(--text-color);
 }
