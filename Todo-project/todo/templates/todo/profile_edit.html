@@ -1,0 +1,87 @@
+{% load custom_filters %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로필 수정</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            background-image: url('/static/images/todo_list_bg.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .character-option {
+            display: inline-block;
+            margin-right: 20px;
+            text-align: center;
+        }
+        .character-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border: 3px solid transparent;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+        .character-option input[type="radio"] {
+            display: none;
+        }
+        .character-option input[type="radio"]:checked + img {
+            border-color: #6f42c1;
+            box-shadow: 0 0 10px rgba(111, 66, 193, 0.5);
+        }
+        .btn-primary {
+            background-color: #6f42c1;
+            border-color: #6f42c1;
+        }
+        .btn-primary:hover {
+            background-color: #5a32a3;
+            border-color: #5a32a3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>프로필 수정</h2>
+        <form method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label>ID:</label>
+                <input type="text" class="form-control" value="{{ user.username }}" readonly>
+            </div>
+            <div class="form-group">
+                <label for="{{ form.nickname.id_for_label }}">별명:</label>
+                {{ form.nickname }}
+                {% if form.nickname.errors %}
+                    <small class="text-danger">{{ form.nickname.errors|join:", " }}</small>
+                {% endif %}
+            </div>
+            <div class="form-group">
+                <label>캐릭터:</label>
+                <div>
+                    {% for radio in form.character %}
+                        {% if radio.data.value != '' %}  <!-- 빈 값(default 옵션) 제외 -->
+                            <label class="character-option">
+                                {{ radio.tag }}
+                                <img src="{{ character_images|get_item:radio.data.value }}" alt="{{ radio.choice_label }}" class="character-image">
+                                <br>
+                                {{ radio.choice_label }}
+                            </label>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                {% if form.character.errors %}
+                    <small class="text-danger">{{ form.character.errors|join:", " }}</small>
+                {% endif %}
+            </div>
+            <button type="submit" class="btn btn-primary">저장</button>
+            <a href="{% url 'profile' %}" class="btn btn-secondary">취소</a>
+        </form>
+    </div>
+</body>
+</html>
