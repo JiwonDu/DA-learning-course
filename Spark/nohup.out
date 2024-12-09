@@ -1,0 +1,1874 @@
+[I 10:04:10.540 NotebookApp] Serving notebooks from local directory: /home/lab06/src
+[I 10:04:10.540 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 10:04:10.540 NotebookApp] http://ip-172-31-13-94:8906/
+[I 10:04:10.540 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:04:10.777 NotebookApp] 404 GET /api/kernels/79bc5632-7bba-4375-a052-f098bb69529d/channels?session_id=b83ae907700945878ca8829a0c621e36 (211.231.29.166): Kernel does not exist: 79bc5632-7bba-4375-a052-f098bb69529d
+[W 10:04:10.798 NotebookApp] 404 GET /api/kernels/79bc5632-7bba-4375-a052-f098bb69529d/channels?session_id=b83ae907700945878ca8829a0c621e36 (211.231.29.166) 22.990000ms referer=None
+[W 10:04:18.340 NotebookApp] 404 GET /api/contents/src?type=directory&_=1733187208903 (211.231.29.166): No such file or directory: src
+[W 10:04:18.340 NotebookApp] No such file or directory: src
+[W 10:04:18.341 NotebookApp] 404 GET /api/contents/src?type=directory&_=1733187208903 (211.231.29.166) 0.700000ms referer=http://13.208.159.5:8906/tree/src
+[I 10:04:29.306 NotebookApp] 302 GET / (211.231.29.166) 0.460000ms
+[I 10:16:34.479 NotebookApp] Kernel started: 6ec2af41-a5bc-47ab-921c-ded953c80961, name: spark_start
+24/12/03 10:16:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 10:18:34.516 NotebookApp] Saving file at /Spark 환경설정_241202.ipynb
+[I 10:23:56.669 NotebookApp] Starting buffering for 6ec2af41-a5bc-47ab-921c-ded953c80961:4f0d1d92a2274c9fb71d7d6e5a702f2d
+[I 10:24:07.931 NotebookApp] Creating new notebook in 
+[I 10:24:10.421 NotebookApp] Kernel started: 2877fcac-4a85-432f-b6c6-45cac09da33d, name: spark_start
+[I 10:26:10.462 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+24/12/03 10:27:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 10:28:10.459 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:30:10.940 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:30:48.667 NotebookApp] Starting buffering for 6ec2af41-a5bc-47ab-921c-ded953c80961:272390ab394343978ff66d7733236f43
+[I 10:32:10.452 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 10:34:10.460 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:40:10.785 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:41:12.948 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:42:10.455 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[W 10:43:54.623 NotebookApp] 404 GET /3591 (211.231.29.166) 1.740000ms referer=None
+[I 10:44:10.461 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:46:10.449 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:48:10.465 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:50:10.572 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:52:10.543 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:54:10.507 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:55:36.413 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 10:56:10.451 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:00:10.448 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:02:10.447 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:04:10.444 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:06:10.444 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:24:10.970 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:26:10.432 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:28:10.467 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:30:10.434 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:32:10.950 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:34:10.434 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+24/12/03 11:34:11 WARN Instrumentation: [3355206a] regParam is zero, which might cause numerical instability and overfitting.
+24/12/03 11:34:11 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+24/12/03 11:34:11 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+24/12/03 11:34:11 WARN LAPACK: Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+24/12/03 11:34:11 WARN LAPACK: Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+[I 11:34:27.186 NotebookApp] Starting buffering for 6ec2af41-a5bc-47ab-921c-ded953c80961:1ebc660e9817445885458326e548f447
+[I 11:36:10.427 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 11:52:10.456 NotebookApp] Saving file at /20241203_p10_exam.ipynb
+[I 13:15:33.288 NotebookApp] Creating new directory in 
+[I 13:23:00.448 NotebookApp] Starting buffering for 2877fcac-4a85-432f-b6c6-45cac09da33d:f286102eb3ea4ec68e79300643e29ee5
+[I 13:23:06.892 NotebookApp] Creating new notebook in 
+[I 13:23:09.046 NotebookApp] Kernel started: cf46bb93-fc7f-435f-8282-dbfadea66446, name: spark_start
+[I 13:25:09.275 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:29:09.095 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+24/12/03 13:30:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 13:31:09.080 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:39:09.089 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:41:09.256 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 13:43:09.119 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:45:09.085 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:47:09.108 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:49:09.132 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:51:09.324 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:55:09.134 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:57:09.087 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 14:25:59.223 NotebookApp] Creating new notebook in 
+[I 14:26:03.760 NotebookApp] Kernel started: 13cf62bc-b29b-4dc5-9f26-7aaf7f6a3cd0, name: spark_start
+[I 14:28:03.797 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+24/12/03 14:29:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/03 14:29:16 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[I 14:30:04.068 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:32:03.803 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:34:03.886 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 14:36:03.801 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:38:04.123 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:44:03.837 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:46:03.826 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:48:03.816 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:50:03.793 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:52:03.785 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:54:03.787 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:56:03.778 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 14:58:03.775 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 15:00:03.836 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 15:04:03.812 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 15:06:03.797 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 15:08:04.089 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[I 15:29:09.876 NotebookApp] Creating new notebook in 
+[I 15:29:12.047 NotebookApp] Kernel started: fe6582a1-8570-4a2d-b4d2-dde44732420b, name: spark_start
+[I 15:31:12.037 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 15:33:12.376 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+24/12/03 15:33:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/03 15:33:25 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+24/12/03 15:33:25 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[I 15:35:12.032 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 15:37:12.056 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 15:39:12.056 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 15:41:12.106 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 15:43:12.135 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+24/12/03 15:44:17 ERROR Executor: Exception in task 0.0 in stage 4.0 (TID 4)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5681/3738455784.py", line 2, in parse
+NameError: name 'line' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 15:44:17 WARN TaskSetManager: Lost task 0.0 in stage 4.0 (TID 4) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5681/3738455784.py", line 2, in parse
+NameError: name 'line' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 15:44:17 ERROR TaskSetManager: Task 0 in stage 4.0 failed 1 times; aborting job
+[I 15:45:12.342 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 15:47:12.088 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+24/12/03 15:48:48 ERROR Executor: Exception in task 0.0 in stage 5.0 (TID 5)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5681/3738455784.py", line 2, in parse
+NameError: name 'line' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 15:48:48 WARN TaskSetManager: Lost task 0.0 in stage 5.0 (TID 5) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5681/3738455784.py", line 2, in parse
+NameError: name 'line' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 15:48:48 ERROR TaskSetManager: Task 0 in stage 5.0 failed 1 times; aborting job
+[I 15:49:12.267 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+24/12/03 16:00:10 ERROR Executor: Exception in task 0.0 in stage 6.0 (TID 6)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5681/3738455784.py", line 2, in parse
+NameError: name 'line' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 16:00:10 WARN TaskSetManager: Lost task 0.0 in stage 6.0 (TID 6) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5681/3738455784.py", line 2, in parse
+NameError: name 'line' is not defined
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 16:00:10 ERROR TaskSetManager: Task 0 in stage 6.0 failed 1 times; aborting job
+[I 16:01:12.293 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:03:12.160 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[Stage 9:>                                                          (0 + 1) / 1]                                                                                [I 16:05:12.234 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:07:12.400 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:11:12.151 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:11:27.446 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:15:12.179 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:16:38.648 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:19:12.193 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:21:12.354 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:23:12.231 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:24:21.273 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 16:57:13.101 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 17:52:24.061 NotebookApp] Saving file at /241203_03_mnms숫자세기.ipynb
+[I 17:52:24.596 NotebookApp] Starting buffering for fe6582a1-8570-4a2d-b4d2-dde44732420b:5768fc4fe3424ba7bc48e3ff8a52624f
+[I 17:52:36.982 NotebookApp] Starting buffering for 13cf62bc-b29b-4dc5-9f26-7aaf7f6a3cd0:62334f31d63a4b2d81453fc72de8ee73
+[I 17:52:45.076 NotebookApp] Starting buffering for cf46bb93-fc7f-435f-8282-dbfadea66446:a42c990f2db147a9804a17be41b1ecc8
+[C 17:53:51.620 NotebookApp] received signal 15, stopping
+[I 17:53:51.630 NotebookApp] Shutting down 5 kernels
+[I 17:53:51.671 NotebookApp] Kernel shutdown: 2877fcac-4a85-432f-b6c6-45cac09da33d
+[I 17:53:51.671 NotebookApp] Kernel shutdown: 13cf62bc-b29b-4dc5-9f26-7aaf7f6a3cd0
+[I 17:53:51.671 NotebookApp] Kernel shutdown: cf46bb93-fc7f-435f-8282-dbfadea66446
+[I 17:53:51.671 NotebookApp] Kernel shutdown: fe6582a1-8570-4a2d-b4d2-dde44732420b
+[I 17:53:51.671 NotebookApp] Kernel shutdown: 6ec2af41-a5bc-47ab-921c-ded953c80961
+[I 17:53:51.912 NotebookApp] Shutting down 0 terminals
+[I 15:17:50.974 NotebookApp] Serving notebooks from local directory: /home/lab06/src
+[I 15:17:50.976 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 15:17:50.976 NotebookApp] http://ip-172-31-13-94:8906/
+[I 15:17:50.976 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:18:01.018 NotebookApp] 404 GET /api/contents/src?type=directory&_=1733277047469 (211.231.29.166): No such file or directory: src
+[W 15:18:01.019 NotebookApp] No such file or directory: src
+[W 15:18:01.019 NotebookApp] 404 GET /api/contents/src?type=directory&_=1733277047469 (211.231.29.166) 0.860000ms referer=http://13.208.159.5:8906/tree/src
+[I 15:18:07.726 NotebookApp] 302 GET / (211.231.29.166) 0.420000ms
+[W 15:18:14.542 NotebookApp] Notebook 241204_02_MovieLens_영화별점카운트.ipynb is not trusted
+[I 15:18:15.414 NotebookApp] Kernel started: dc902c7d-fde4-48c8-a3be-11f27aef7399, name: spark_start
+24/12/04 15:18:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[W 15:18:46.358 NotebookApp] Notebook 241203_02_KVRDD.ipynb is not trusted
+[I 15:18:47.234 NotebookApp] Kernel started: 9f60afc1-5456-46bf-99e4-1489926a4134, name: spark_start
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 15:20:15.519 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 15:22:15.464 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[Stage 1:>                                                          (0 + 1) / 1]                                                                                [I 15:22:47.663 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 15:29:34.214 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 15:42:15.503 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 15:44:15.570 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+24/12/04 15:46:14 ERROR Executor: Exception in task 0.0 in stage 10.0 (TID 10)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_4505/646040827.py", line 4, in <lambda>
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/04 15:46:14 WARN TaskSetManager: Lost task 0.0 in stage 10.0 (TID 10) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_4505/646040827.py", line 4, in <lambda>
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/04 15:46:14 ERROR TaskSetManager: Task 0 in stage 10.0 failed 1 times; aborting job
+[I 15:46:15.459 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+24/12/04 15:48:08 ERROR Executor: Exception in task 0.0 in stage 23.0 (TID 23)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 594, in process
+    out_iter = func(split_index, iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 418, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2144, in combineLocally
+    merger.mergeValues(iterator)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 240, in mergeValues
+    for k, v in iterator:
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_4505/2549108640.py", line 2, in <lambda>
+TypeError: '>=' not supported between instances of 'str' and 'int'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1209)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/04 15:48:08 WARN TaskSetManager: Lost task 0.0 in stage 23.0 (TID 23) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 594, in process
+    out_iter = func(split_index, iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 418, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2144, in combineLocally
+    merger.mergeValues(iterator)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 240, in mergeValues
+    for k, v in iterator:
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_4505/2549108640.py", line 2, in <lambda>
+TypeError: '>=' not supported between instances of 'str' and 'int'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1209)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/04 15:48:08 ERROR TaskSetManager: Task 0 in stage 23.0 failed 1 times; aborting job
+[I 15:48:15.471 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 15:50:15.451 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 15:50:26.311 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 15:54:15.475 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 16:01:28.190 NotebookApp] 302 GET / (221.155.17.253) 1.330000ms
+[I 16:01:28.222 NotebookApp] 302 GET /tree? (221.155.17.253) 0.470000ms
+[I 16:01:33.324 NotebookApp] 302 POST /login?next=%2Ftree%3F (221.155.17.253) 83.730000ms
+[W 16:01:39.889 NotebookApp] Notebook 241204_02_MovieLens_영화별점카운트.ipynb is not trusted
+[I 16:04:15.491 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[W 16:18:22.004 NotebookApp] Notebook 241204_01_RDD_API.ipynb is not trusted
+[I 16:18:23.458 NotebookApp] Kernel started: 5d225b77-0888-4e09-991a-f72aeed7e06c, name: spark_start
+[I 16:20:05.768 NotebookApp] Starting buffering for 5d225b77-0888-4e09-991a-f72aeed7e06c:d21c7a1282714f2db35d8ee0289aaf51
+[I 16:20:07.408 NotebookApp] Starting buffering for 9f60afc1-5456-46bf-99e4-1489926a4134:d4232620e2e84951bcd140228ec211be
+[I 16:22:15.469 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 16:26:15.437 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 16:28:15.492 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 16:28:37.812 NotebookApp] 302 GET / (211.231.29.166) 0.460000ms
+[I 16:30:15.496 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 16:32:15.570 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 16:34:15.497 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 16:34:36.197 NotebookApp] Malformed HTTP message from 220.88.49.118: Malformed HTTP version in HTTP Request-Line: ''
+[I 16:34:39.180 NotebookApp] 302 GET / (220.88.49.118) 0.440000ms
+[I 16:34:39.216 NotebookApp] 302 GET /tree? (220.88.49.118) 0.500000ms
+[I 16:34:44.046 NotebookApp] 302 POST /login?next=%2Ftree%3F (220.88.49.118) 67.010000ms
+[W 16:34:49.938 NotebookApp] Notebook 241204_02_MovieLens_영화별점카운트.ipynb is not trusted
+[I 16:52:15.643 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[I 16:55:05.762 NotebookApp] Starting buffering for dc902c7d-fde4-48c8-a3be-11f27aef7399:37fa8c59fc0149dd96ecdd530299e7b7
+[I 16:56:09.140 NotebookApp] 302 GET / (211.231.29.166) 0.440000ms
+[W 16:56:24.809 NotebookApp] Notebook 241204_02_MovieLens_영화별점카운트.ipynb is not trusted
+[I 16:56:39.500 NotebookApp] Saving file at /241204_02_MovieLens_영화별점카운트.ipynb
+[W 16:56:39.500 NotebookApp] Notebook 241204_02_MovieLens_영화별점카운트.ipynb is not trusted
+[I 16:56:40.513 NotebookApp] Starting buffering for dc902c7d-fde4-48c8-a3be-11f27aef7399:18a1134fa6694a94877186969b5941f3
+[C 19:00:01.824 NotebookApp] received signal 15, stopping
+[I 19:00:01.831 NotebookApp] Shutting down 3 kernels
+[I 19:00:01.845 NotebookApp] Kernel shutdown: 9f60afc1-5456-46bf-99e4-1489926a4134
+[I 19:00:01.845 NotebookApp] Kernel shutdown: 5d225b77-0888-4e09-991a-f72aeed7e06c
+[I 19:00:01.845 NotebookApp] Kernel shutdown: dc902c7d-fde4-48c8-a3be-11f27aef7399
+[I 19:00:01.968 NotebookApp] Shutting down 0 terminals
+usage: jupyter-notebook [-h] [--debug] [--show-config] [--show-config-json]
+                        [--generate-config] [-y] [--no-browser] [--no-mathjax]
+                        [--allow-root] [--autoreload] [--script] [--no-script]
+                        [--log-level NotebookApp.log_level]
+                        [--config NotebookApp.config_file]
+                        [--ip NotebookApp.ip] [--port NotebookApp.port]
+                        [--port-retries NotebookApp.port_retries]
+                        [--sock NotebookApp.sock]
+                        [--sock-mode NotebookApp.sock_mode]
+                        [--transport KernelManager.transport]
+                        [--keyfile NotebookApp.keyfile]
+                        [--certfile NotebookApp.certfile]
+                        [--client-ca NotebookApp.client_ca]
+                        [--notebook-dir NotebookApp.notebook_dir]
+                        [--browser NotebookApp.browser]
+                        [--pylab [NotebookApp.pylab]]
+                        [--gateway-url GatewayClient.url]
+                        [extra_args [extra_args ...]]
+jupyter-notebook: error: argument --nobrowser: expected one argument
+[W 2024-12-05 09:13:55.858 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-05 09:13:55.858 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-05 09:13:55.858 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-05 09:13:55.858 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-05 09:13:55.858 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-12-05 09:13:55.866 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 2024-12-05 09:13:55.866 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 09:13:55.870 NotebookApp] Serving notebooks from local directory: /home/lab06/src
+[I 09:13:55.870 NotebookApp] Jupyter Notebook 6.4.11 is running at:
+[I 09:13:55.870 NotebookApp] http://ip-172-31-13-94:8906/
+[I 09:13:55.870 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:14:16.291 NotebookApp] 302 GET / (211.231.29.166) 1.310000ms
+[W 09:55:41.776 NotebookApp] Notebook 241204_01_RDD_API.ipynb is not trusted
+[I 09:55:43.472 NotebookApp] Kernel started: 18bd90f6-8ddf-4346-9e1b-522df1d76e3b, name: spark_start
+[I 10:14:18.238 NotebookApp] Creating new notebook in 
+[I 10:14:21.910 NotebookApp] Kernel started: 33d474a5-06e3-4953-b133-6063669548e3, name: spark_start
+[I 10:14:26.560 NotebookApp] Starting buffering for 18bd90f6-8ddf-4346-9e1b-522df1d76e3b:71e66296ec1444ba86cccaa620bcf509
+[I 10:16:22.556 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[W 10:16:34.015 NotebookApp] Notebook 241203_02_KVRDD.ipynb is not trusted
+[I 10:16:35.579 NotebookApp] Kernel started: 8bd17a13-5817-4a8c-a3e1-fa763add82c1, name: spark_start
+24/12/05 10:16:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 10:18:22.502 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]24/12/05 10:20:31 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/05 10:20:31 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/05 10:20:31 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+[I 10:22:22.623 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 10:22:35.642 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[W 10:22:35.643 NotebookApp] Notebook 241203_02_KVRDD.ipynb is not trusted
+[I 10:24:22.012 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 10:28:13.690 NotebookApp] Starting buffering for 33d474a5-06e3-4953-b133-6063669548e3:ff1e6843198d4a0dbe8d3c15221332ec
+[I 10:28:16.428 NotebookApp] Kernel restarted: 33d474a5-06e3-4953-b133-6063669548e3
+[I 10:28:16.552 NotebookApp] Restoring connection for 33d474a5-06e3-4953-b133-6063669548e3:ff1e6843198d4a0dbe8d3c15221332ec
+[I 10:28:16.553 NotebookApp] Replaying 1 buffered messages
+[I 10:28:21.984 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+24/12/05 10:28:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]24/12/05 10:28:33 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/05 10:28:33 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/05 10:28:33 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+24/12/05 10:29:25 ERROR Executor: Exception in task 0.0 in stage 1.0 (TID 1)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/05 10:29:25 WARN TaskSetManager: Lost task 0.0 in stage 1.0 (TID 1) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/05 10:29:25 ERROR TaskSetManager: Task 0 in stage 1.0 failed 1 times; aborting job
+[I 10:30:22.063 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 10:32:22.022 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+24/12/05 10:33:06 ERROR Executor: Exception in task 0.0 in stage 2.0 (TID 2)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/05 10:33:06 WARN TaskSetManager: Lost task 0.0 in stage 2.0 (TID 2) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/05 10:33:06 ERROR TaskSetManager: Task 0 in stage 2.0 failed 1 times; aborting job
+[I 10:34:21.971 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 10:35:52.292 NotebookApp] Starting buffering for 8bd17a13-5817-4a8c-a3e1-fa763add82c1:c54fbacc90d545da8561d037612fe28e
+[I 10:35:54.508 NotebookApp] Creating new notebook in 
+[I 10:35:56.319 NotebookApp] Kernel started: accfec3a-b4c6-4e3e-a4c0-12c6ef627c4d, name: spark_start
+[I 10:36:22.533 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 10:37:56.392 NotebookApp] Saving file at /241205_02_partition.ipynb
+24/12/05 10:38:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/05 10:38:08 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[I 10:38:22.501 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]24/12/05 10:39:33 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/05 10:39:33 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 477, in main
+    ("%d.%d" % sys.version_info[:2], version))
+Exception: Python in worker has different version 3.7 than that in driver 3.8, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/05 10:39:33 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+[I 10:39:56.431 NotebookApp] Saving file at /241205_02_partition.ipynb
+[I 10:41:39.008 NotebookApp] Saving file at /241205_02_partition.ipynb
+[I 10:41:39.847 NotebookApp] Starting buffering for accfec3a-b4c6-4e3e-a4c0-12c6ef627c4d:d780280225d2456b9677bda6049bf75b
+[I 10:41:41.255 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 10:41:42.775 NotebookApp] Starting buffering for 33d474a5-06e3-4953-b133-6063669548e3:ff1e6843198d4a0dbe8d3c15221332ec
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[W 2024-12-05 10:42:43.432 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-05 10:42:43.432 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-05 10:42:43.432 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-05 10:42:43.432 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-05 10:42:43.432 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-12-05 10:42:43.439 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 2024-12-05 10:42:43.439 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 10:42:43.443 NotebookApp] Serving notebooks from local directory: /home/lab06/src
+[I 10:42:43.443 NotebookApp] Jupyter Notebook 6.4.11 is running at:
+[I 10:42:43.444 NotebookApp] http://ip-172-31-13-94:8906/
+[I 10:42:43.444 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:43:02.146 NotebookApp] Notebook 241205_02_partition.ipynb is not trusted
+[I 10:43:03.197 NotebookApp] Kernel started: b20484cb-b5d0-45de-b8e8-c68e0ce111b0, name: spark_start
+24/12/05 10:43:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/05 10:43:21 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+24/12/05 10:43:22 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+
+24/12/05 10:43:22 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+[Stage 0:>                                                          (0 + 0) / 1][I 10:45:03.605 NotebookApp] Saving file at /241205_02_partition.ipynb
+[I 10:45:10.534 NotebookApp] Starting buffering for b20484cb-b5d0-45de-b8e8-c68e0ce111b0:9b5d78dddd6d4eb08b480d9c4d3de3f1
+[I 10:45:13.223 NotebookApp] Kernel restarted: b20484cb-b5d0-45de-b8e8-c68e0ce111b0
+[I 10:45:13.308 NotebookApp] Restoring connection for b20484cb-b5d0-45de-b8e8-c68e0ce111b0:9b5d78dddd6d4eb08b480d9c4d3de3f1
+[I 10:45:13.308 NotebookApp] Replaying 1 buffered messages
+24/12/05 10:45:18 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/05 10:45:25 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+24/12/05 10:45:25 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+
+24/12/05 10:45:25 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+[I 10:47:03.239 NotebookApp] Saving file at /241205_02_partition.ipynb
+[I 10:47:57.043 NotebookApp] Starting buffering for b20484cb-b5d0-45de-b8e8-c68e0ce111b0:9b5d78dddd6d4eb08b480d9c4d3de3f1
+[I 10:48:08.595 NotebookApp] Creating new notebook in 
+[I 10:48:11.230 NotebookApp] Kernel started: 1c18ea15-29b9-46e8-bbd8-175138479c00, name: spark_start
+[I 10:50:11.465 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 10:54:01.734 NotebookApp] delete /myenv
+[I 10:54:22.109 NotebookApp] Starting buffering for 1c18ea15-29b9-46e8-bbd8-175138479c00:a240e90a1ff5488a9fa7dbdd01c1a94a
+[I 11:00:54.978 NotebookApp] 302 GET / (211.231.29.166) 0.470000ms
+[I 11:01:07.974 NotebookApp] Starting buffering for b20484cb-b5d0-45de-b8e8-c68e0ce111b0:b21aa23761ef496eb4502b2cb34aa562
+[I 11:01:12.862 NotebookApp] Kernel shutdown: b20484cb-b5d0-45de-b8e8-c68e0ce111b0
+[I 11:01:12.863 NotebookApp] Kernel shutdown: 1c18ea15-29b9-46e8-bbd8-175138479c00
+[W 11:01:12.869 NotebookApp] delete /241205_02_partition.ipynb
+[W 11:01:12.871 NotebookApp] delete /241205_03_reduce.ipynb
+[W 11:01:22.279 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 11:01:23.593 NotebookApp] Kernel started: 241d31e1-9f44-468d-8c17-651453e8d322, name: spark_start
+[I 11:01:25.768 NotebookApp] Starting buffering for 241d31e1-9f44-468d-8c17-651453e8d322:7d4c10b5091347369281156cee4d7376
+[W 11:01:29.621 NotebookApp] delete /241205_01_RDD_persist.ipynb
+[I 11:01:29.624 NotebookApp] Kernel shutdown: 241d31e1-9f44-468d-8c17-651453e8d322
+[I 11:03:37.814 NotebookApp] The port 8906 is already in use, trying another port.
+[I 11:03:37.814 NotebookApp] Serving notebooks from local directory: /home/lab06/src
+[I 11:03:37.814 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 11:03:37.814 NotebookApp] http://ip-172-31-13-94:8907/
+[I 11:03:37.814 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 11:04:09.929 NotebookApp] 302 GET / (211.231.29.166) 0.440000ms
+[W 11:04:46.216 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 11:04:47.034 NotebookApp] Kernel started: 63a278f3-1075-48d6-bd3b-26c57b1e24d8, name: spark_start
+24/12/05 11:04:53 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]24/12/05 11:05:03 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+24/12/05 11:05:03 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+
+24/12/05 11:05:03 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+[Stage 0:>                                                          (0 + 0) / 1][I 11:05:41.297 NotebookApp] Kernel started: 7a0ed083-8935-46df-9318-c3002cde8460, name: spark_start
+[I 11:06:13.001 NotebookApp] Copying 241202_Spark 환경설정.ipynb to 
+[I 11:06:17.051 NotebookApp] Kernel started: fe640546-4ed0-4540-b82a-17e5ee6bed43, name: spark_start
+[I 11:06:47.185 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[W 11:06:47.186 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 11:07:03.758 NotebookApp] Starting buffering for fe640546-4ed0-4540-b82a-17e5ee6bed43:d83e7c4781154fbc8604956490b74002
+[I 11:07:05.538 NotebookApp] Starting buffering for 7a0ed083-8935-46df-9318-c3002cde8460:9b6628add55c48bb8626727239fed201
+[I 11:07:33.264 NotebookApp] Starting buffering for fe640546-4ed0-4540-b82a-17e5ee6bed43:f29e9fc9091249418278102074a46373
+[I 11:08:06.478 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[W 11:08:06.478 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+24/12/05 11:08:21 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+24/12/05 11:08:21 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+
+24/12/05 11:08:21 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+[I 11:08:29.826 NotebookApp] Kernel shutdown: fe640546-4ed0-4540-b82a-17e5ee6bed43
+[W 11:08:29.827 NotebookApp] delete /241202_Spark 환경설정-Copy1.ipynb
+[I 11:08:36.834 NotebookApp] Kernel shutdown: 7a0ed083-8935-46df-9318-c3002cde8460
+[I 11:08:41.863 NotebookApp] Kernel shutdown: 63a278f3-1075-48d6-bd3b-26c57b1e24d8
+[I 11:08:47.306 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[W 11:08:47.306 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[W 11:11:34.907 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 11:11:35.497 NotebookApp] Kernel started: e4f2b34e-dd29-436d-9bcb-fc5b857a2b7a, name: spark_start
+24/12/05 11:11:43 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]24/12/05 11:11:50 ERROR Executor: Exception in task 0.0 in stage 0.0 (TID 0)
+java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+24/12/05 11:11:50 WARN TaskSetManager: Lost task 0.0 in stage 0.0 (TID 0) (ip-172-31-13-94.ap-northeast-3.compute.internal executor driver): java.io.IOException: Cannot run program "/usr/bin/python3.8": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.apache.spark.api.python.PythonWorkerFactory.startDaemon(PythonWorkerFactory.scala:209)
+	at org.apache.spark.api.python.PythonWorkerFactory.createThroughDaemon(PythonWorkerFactory.scala:132)
+	at org.apache.spark.api.python.PythonWorkerFactory.create(PythonWorkerFactory.scala:105)
+	at org.apache.spark.SparkEnv.createPythonWorker(SparkEnv.scala:119)
+	at org.apache.spark.api.python.BasePythonRunner.compute(PythonRunner.scala:145)
+	at org.apache.spark.api.python.PythonRDD.compute(PythonRDD.scala:65)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+
+24/12/05 11:11:50 ERROR TaskSetManager: Task 0 in stage 0.0 failed 1 times; aborting job
+[W 11:13:32.586 NotebookApp] Notebook 241203_01_학생수세기.ipynb is not trusted
+[I 11:13:33.207 NotebookApp] Kernel started: dd06d657-2368-4c43-bffd-35e611d719a1, name: spark_start
+[I 11:13:36.497 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[W 11:13:36.497 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 11:13:44.132 NotebookApp] Starting buffering for dd06d657-2368-4c43-bffd-35e611d719a1:3e73f597b8cc49648f7eb8bdfec013bf
+[I 11:14:11.267 NotebookApp] Starting buffering for e4f2b34e-dd29-436d-9bcb-fc5b857a2b7a:ce30d3834c9d4409a67e230b935dc063
+[I 11:14:16.331 NotebookApp] Kernel shutdown: e4f2b34e-dd29-436d-9bcb-fc5b857a2b7a
+[I 11:14:19.631 NotebookApp] Kernel shutdown: dd06d657-2368-4c43-bffd-35e611d719a1
+[W 11:14:22.199 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 11:14:22.843 NotebookApp] Kernel started: 10da8da3-fcce-4903-ac90-8131064c4916, name: spark_start
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 11:20:39.275 NotebookApp] Serving notebooks from local directory: /home/lab06/src
+[I 11:20:39.275 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 11:20:39.275 NotebookApp] http://ip-172-31-13-94:8906/
+[I 11:20:39.275 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 11:20:50.959 NotebookApp] 302 GET / (211.231.29.166) 0.460000ms
+[W 11:20:55.416 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 11:20:55.947 NotebookApp] Kernel started: 0aaa530b-fdd0-4a82-b58a-0f61a69c2b8b, name: spark_start
+24/12/05 11:20:59 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [W 11:21:46.673 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 11:21:47.203 NotebookApp] Kernel started: b4bbfbcc-5b4d-4bea-847e-f4e64b8a5957, name: spark_start
+[I 11:21:52.768 NotebookApp] Starting buffering for b4bbfbcc-5b4d-4bea-847e-f4e64b8a5957:a2c2e791e487424b862d78f7709a418a
+[I 11:22:00.841 NotebookApp] Kernel shutdown: b4bbfbcc-5b4d-4bea-847e-f4e64b8a5957
+[W 11:22:00.848 NotebookApp] delete /241205_03_reduce.ipynb
+[I 11:22:56.659 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 11:43:13.258 NotebookApp] Starting buffering for 0aaa530b-fdd0-4a82-b58a-0f61a69c2b8b:5f7186b6d86843b58166ff29c6b02f82
+[W 11:43:16.324 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 11:43:17.527 NotebookApp] Kernel started: f7ce685b-64ff-4513-9516-e230c06d5fd9, name: spark_start
+[I 11:45:17.595 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 11:45:17.595 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 11:46:00.217 NotebookApp] Starting buffering for f7ce685b-64ff-4513-9516-e230c06d5fd9:b5919f85143047f88f9d61730d09d02d
+[I 12:36:58.654 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 12:38:36.945 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 12:38:37.984 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[I 12:38:39.139 NotebookApp] Starting buffering for 0aaa530b-fdd0-4a82-b58a-0f61a69c2b8b:4771c2ddaa09457a964a4a3e8b5ca316
+[W 12:38:42.302 NotebookApp] Notebook 241205_02_partition.ipynb is not trusted
+[I 12:38:42.780 NotebookApp] Kernel started: 53aeafed-9117-44af-9ff7-2c1d6dc9ca53, name: spark_start
+[I 12:40:42.864 NotebookApp] Saving file at /241205_02_partition.ipynb
+[W 12:40:42.865 NotebookApp] Notebook 241205_02_partition.ipynb is not trusted
+[W 12:40:58.688 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 12:42:59.456 NotebookApp] Saving file at /241205_01_RDD_persist.ipynb
+[W 12:42:59.456 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 12:44:40.147 NotebookApp] Saving file at /241205_02_partition.ipynb
+[W 12:44:40.147 NotebookApp] Notebook 241205_02_partition.ipynb is not trusted
+[I 12:45:17.721 NotebookApp] Starting buffering for 53aeafed-9117-44af-9ff7-2c1d6dc9ca53:eed5155a5b8941e98ae4da6ade4ffc46
+[I 12:45:19.103 NotebookApp] Starting buffering for 0aaa530b-fdd0-4a82-b58a-0f61a69c2b8b:cca0262457574a3896a44ec1bbf4ab90
+[W 12:45:21.646 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[W 12:50:57.474 NotebookApp] Notebook 241205_01_RDD_persist.ipynb is not trusted
+[I 12:51:57.645 NotebookApp] Starting buffering for 0aaa530b-fdd0-4a82-b58a-0f61a69c2b8b:2b1cf37f302545c189c5762ce9699745
+[W 12:52:00.815 NotebookApp] Notebook 241205_02_partition.ipynb is not trusted
+[I 12:55:03.955 NotebookApp] Saving file at /241205_02_partition.ipynb
+[W 12:55:03.955 NotebookApp] Notebook 241205_02_partition.ipynb is not trusted
+[I 12:55:05.614 NotebookApp] Starting buffering for 53aeafed-9117-44af-9ff7-2c1d6dc9ca53:926715c71e524b138d1575445ffdf533
+[I 12:57:22.437 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 12:57:22.438 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 12:59:22.436 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 12:59:22.437 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 12:59:49.444 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 12:59:49.444 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:15:22.435 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:15:22.436 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:17:22.522 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:17:22.522 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+24/12/05 13:17:48 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1]                                                                                [I 13:19:22.437 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:19:22.438 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:21:22.466 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:21:22.466 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:23:23.541 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:23:23.541 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:25:22.477 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:25:22.477 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:31:22.433 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:31:22.433 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:33:23.095 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:33:23.096 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:39:22.454 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:39:22.454 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:45:22.463 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:45:22.464 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 13:47:22.426 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 13:47:22.426 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:03:22.456 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:03:22.456 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:05:22.467 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:05:22.467 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:07:22.413 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:07:22.413 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:09:22.419 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:09:22.420 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:11:22.414 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:11:22.415 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:13:22.983 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:13:22.984 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:15:22.423 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:15:22.424 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:17:22.432 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:17:22.432 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:19:22.406 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:19:22.406 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:21:22.409 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:21:22.410 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:39:22.468 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:39:22.468 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[W 14:46:06.423 NotebookApp] Notebook 241203_01_학생수세기.ipynb is not trusted
+[I 14:46:07.342 NotebookApp] Kernel started: c35ae2ed-88ec-492a-bf5a-1c9f05e45f42, name: spark_start
+[I 14:46:12.527 NotebookApp] Starting buffering for c35ae2ed-88ec-492a-bf5a-1c9f05e45f42:b3962188aa4341d2859fbacbe4e567cd
+[W 14:46:19.575 NotebookApp] Notebook 241204_02_MovieLens_영화별점카운트.ipynb is not trusted
+[I 14:46:20.631 NotebookApp] Kernel started: 73b79261-594f-457c-8e47-147dcbfb32ee, name: spark_start
+[I 14:46:25.864 NotebookApp] Starting buffering for 73b79261-594f-457c-8e47-147dcbfb32ee:315a97a1bea44d37957076ed22411e38
+[W 14:46:31.264 NotebookApp] Notebook 241204_01_RDD_API.ipynb is not trusted
+[I 14:46:32.883 NotebookApp] Kernel started: 58adab1c-70ab-49a7-b5b4-f4c62222e3b6, name: spark_start
+[I 14:49:22.498 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:49:22.499 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:51:22.478 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:51:22.478 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:53:23.523 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:53:23.524 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:53:30.478 NotebookApp] Starting buffering for 58adab1c-70ab-49a7-b5b4-f4c62222e3b6:0d709dfa2cca4983a1b9d689d62161ca
+[I 14:54:05.076 NotebookApp] Saving file at /241205_03_reduce.ipynb
+[W 14:54:05.076 NotebookApp] Notebook 241205_03_reduce.ipynb is not trusted
+[I 14:54:55.047 NotebookApp] Creating new notebook in 
+[I 14:54:57.172 NotebookApp] Kernel started: c712f1c9-f369-44a2-abb9-fca1bea5a93d, name: spark_start
+[I 14:56:57.207 NotebookApp] Saving file at /241205_04_fakefrieds.ipynb
+[I 14:58:57.253 NotebookApp] Saving file at /241205_04_fakefrieds.ipynb
+24/12/05 15:17:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[W 15:18:17.619 NotebookApp] Notebook 241204_02_MovieLens_영화별점카운트.ipynb is not trusted
+[I 15:18:57.375 NotebookApp] Saving file at /241205_04_fakefriends.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 15:20:57.245 NotebookApp] Saving file at /241205_04_fakefriends.ipynb
+[W 15:22:55.594 NotebookApp] Notebook 241203_p10_exam.ipynb is not trusted
+[I 15:22:57.193 NotebookApp] Kernel started: ce292f5c-6bbb-437b-a297-169326342d34, name: spark_start
+[I 15:23:04.842 NotebookApp] Starting buffering for ce292f5c-6bbb-437b-a297-169326342d34:1bb5a7cc7f504927bd864c2a2bc14a03
+[W 15:23:28.589 NotebookApp] Notebook 241203_03_mnms숫자세기.ipynb is not trusted
+[I 15:23:31.938 NotebookApp] Kernel started: 5032f69d-e1da-4326-8527-b00a9eb6505f, name: spark_start
+[I 15:24:57.258 NotebookApp] Saving file at /241205_04_fakefriends.ipynb
+[I 15:28:57.200 NotebookApp] Saving file at /241205_04_fakefriends.ipynb
+[Stage 6:>                                                          (0 + 1) / 1]                                                                                [I 15:30:57.231 NotebookApp] Saving file at /241205_04_fakefriends.ipynb
+[I 15:36:57.324 NotebookApp] Saving file at /241205_04_fakefriends.ipynb
+[I 16:00:57.257 NotebookApp] Saving file at /241205_04_fakefriends.ipynb
+[I 16:04:32.510 NotebookApp] Starting buffering for 5032f69d-e1da-4326-8527-b00a9eb6505f:7d92acd7814c4e4dac9bda63d4303e56
+[I 16:04:34.242 NotebookApp] Saving file at /241205_04_fakefriends.ipynb
+[I 16:04:35.570 NotebookApp] Starting buffering for c712f1c9-f369-44a2-abb9-fca1bea5a93d:1168a877a1f54a059fd1e632afc5aecc
+[W 16:04:41.389 NotebookApp] Notebook 241203_01_학생수세기.ipynb is not trusted
+[I 16:29:32.303 NotebookApp] 302 GET / (125.129.250.60) 0.790000ms
+[I 16:29:32.336 NotebookApp] 302 GET /tree? (125.129.250.60) 0.460000ms
+[I 16:29:37.576 NotebookApp] 302 POST /login?next=%2Ftree%3F (125.129.250.60) 82.850000ms
+[I 16:29:37.576 NotebookApp] Malformed HTTP message from 125.129.250.60: no colon in header line
+[W 16:29:41.209 NotebookApp] Notebook 241205_04_fakefriends.ipynb is not trusted
+[I 16:30:00.458 NotebookApp] Starting buffering for c712f1c9-f369-44a2-abb9-fca1bea5a93d:57819bcb3bdc4bc488ab7887dee17a99
+[W 16:45:52.569 NotebookApp] Notebook 241205_04_fakefriends.ipynb is not trusted
+[I 17:18:56.841 NotebookApp] Starting buffering for c35ae2ed-88ec-492a-bf5a-1c9f05e45f42:8935e94544bd4cf88727ca5f10fb32a2
+[W 17:19:01.544 NotebookApp] Notebook 241203_02_KVRDD.ipynb is not trusted
+[I 17:19:02.693 NotebookApp] Kernel started: 11e4dac5-0f20-45b3-b9e9-9957cac22db7, name: spark_start
+[I 17:19:54.362 NotebookApp] Saving file at /241205_04_RDDEAM_나이별친구수카운트.ipynb
+[W 17:19:54.362 NotebookApp] Notebook 241205_04_RDDEAM_나이별친구수카운트.ipynb is not trusted
+[I 17:21:02.783 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[W 17:21:02.783 NotebookApp] Notebook 241203_02_KVRDD.ipynb is not trusted
+[I 17:29:02.782 NotebookApp] Saving file at /241203_02_KVRDD.ipynb
+[W 17:29:02.782 NotebookApp] Notebook 241203_02_KVRDD.ipynb is not trusted
+[I 17:35:12.888 NotebookApp] Starting buffering for 11e4dac5-0f20-45b3-b9e9-9957cac22db7:27e762ea33d941529eddca8e50965932
+[I 17:35:15.020 NotebookApp] Starting buffering for c712f1c9-f369-44a2-abb9-fca1bea5a93d:e0f0b79f818842ba89d29e5ef46b9594
+[W 17:35:20.614 NotebookApp] Notebook 241203_03_mnms숫자세기.ipynb is not trusted
+[W 17:41:18.421 NotebookApp] Notebook 241203_01_학생수세기.ipynb is not trusted
+[I 17:41:32.024 NotebookApp] Starting buffering for c35ae2ed-88ec-492a-bf5a-1c9f05e45f42:b2356fa955f649778d1c04a5218cf45c
+[W 17:41:34.956 NotebookApp] Notebook 241203_02_KVRDD.ipynb is not trusted
+[I 18:15:30.546 NotebookApp] Starting buffering for 5032f69d-e1da-4326-8527-b00a9eb6505f:f8310bbab06d44bca096069eeaf2293a
+[I 18:15:31.570 NotebookApp] Starting buffering for 11e4dac5-0f20-45b3-b9e9-9957cac22db7:992aa33ee4fe414c803a77f4c415cc22
+[I 18:15:46.601 NotebookApp] Starting buffering for 73b79261-594f-457c-8e47-147dcbfb32ee:17871b17a6564dfcbc7e552dff4a4bc7
+[I 18:15:56.432 NotebookApp] Starting buffering for f7ce685b-64ff-4513-9516-e230c06d5fd9:6953f5645452423fbc873dcb6f488eb9
+[C 18:16:24.731 NotebookApp] received signal 15, stopping
+[I 18:16:24.734 NotebookApp] Shutting down 10 kernels
+[I 18:16:24.890 NotebookApp] Kernel shutdown: c35ae2ed-88ec-492a-bf5a-1c9f05e45f42
+[I 18:16:24.890 NotebookApp] Kernel shutdown: f7ce685b-64ff-4513-9516-e230c06d5fd9
+[I 18:16:24.890 NotebookApp] Kernel shutdown: ce292f5c-6bbb-437b-a297-169326342d34
+[I 18:16:24.890 NotebookApp] Kernel shutdown: 5032f69d-e1da-4326-8527-b00a9eb6505f
+[I 18:16:24.890 NotebookApp] Kernel shutdown: 11e4dac5-0f20-45b3-b9e9-9957cac22db7
+[I 18:16:24.890 NotebookApp] Kernel shutdown: 73b79261-594f-457c-8e47-147dcbfb32ee
+[I 18:16:24.890 NotebookApp] Kernel shutdown: 53aeafed-9117-44af-9ff7-2c1d6dc9ca53
+[I 18:16:24.891 NotebookApp] Kernel shutdown: c712f1c9-f369-44a2-abb9-fca1bea5a93d
+[I 18:16:24.891 NotebookApp] Kernel shutdown: 0aaa530b-fdd0-4a82-b58a-0f61a69c2b8b
+[I 18:16:24.891 NotebookApp] Kernel shutdown: 58adab1c-70ab-49a7-b5b4-f4c62222e3b6
+[I 18:16:24.944 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 18:16:24.946 NotebookApp] Cannot interrupt kernel. No kernel is running!
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 71, in wrapper
+        out = await method(self, *args, **kwargs)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 479, in _async_shutdown_kernel
+        await ensure_async(self.interrupt_kernel())
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+        return f.result()
+      File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+        result = coro.send(None)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 587, in _async_interrupt_kernel
+        raise RuntimeError("Cannot interrupt kernel. No kernel is running!")
+    RuntimeError: Cannot interrupt kernel. No kernel is running!
+[E 18:16:24.966 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7f599b8f2a90>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.6/dist-packages/tornado/ioloop.py", line 905, in _run
+        return self.callback()
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/restarter.py", line 143, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+        return f.result()
+      File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+        result = coro.send(None)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 523, in _async_restart_kernel
+        await ensure_async(self.shutdown_kernel(now=now, restart=True))
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+        return f.result()
+      File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+        result = coro.send(None)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 79, in wrapper
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 71, in wrapper
+        out = await method(self, *args, **kwargs)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 479, in _async_shutdown_kernel
+        await ensure_async(self.interrupt_kernel())
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+        return f.result()
+      File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+        result = coro.send(None)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 587, in _async_interrupt_kernel
+        raise RuntimeError("Cannot interrupt kernel. No kernel is running!")
+    RuntimeError: Cannot interrupt kernel. No kernel is running!
+[I 18:16:24.986 NotebookApp] Shutting down 0 terminals
+[I 09:08:25.375 NotebookApp] Serving notebooks from local directory: /home/lab06/src
+[I 09:08:25.375 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 09:08:25.375 NotebookApp] http://ip-172-31-13-94:8906/
+[I 09:08:25.376 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:12:18.911 NotebookApp] 302 GET / (211.231.29.166) 0.520000ms
+[I 11:33:40.247 NotebookApp] Creating new notebook in 
+[I 11:33:43.086 NotebookApp] Kernel started: 37c6d859-f9f1-42c4-9bc9-60bb2109fe32, name: spark_start
+[I 11:35:43.132 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+24/12/06 11:40:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 11:41:43.122 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 11:47:43.169 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:13:43.169 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:15:43.193 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:17:43.202 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:19:43.247 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:21:43.253 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:23:43.133 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:25:43.130 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:27:43.126 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:29:43.129 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:31:43.191 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:33:36.500 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:33:51.382 NotebookApp] Saving file at /241206_01_RDD_단어수세기.ipynb
+[I 13:34:22.142 NotebookApp] Starting buffering for 37c6d859-f9f1-42c4-9bc9-60bb2109fe32:a9e55c9e740741658f76d8f692e0db7d
+[I 13:40:51.957 NotebookApp] Creating new notebook in 
+[I 13:40:53.891 NotebookApp] Kernel started: d922a7ce-913b-4e20-a7f9-74c9f441956b, name: spark_start
+[I 13:42:53.935 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 13:44:53.948 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+24/12/06 13:45:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[W 13:46:16.143 NotebookApp] Notebook 241206_01_RDD_단어수세기.ipynb is not trusted
+[I 13:46:53.987 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 13:48:53.948 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 13:50:53.967 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[Stage 1:>                                                          (0 + 1) / 1]                                                                                [I 13:52:53.956 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 13:54:53.927 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 13:56:53.918 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:12:53.953 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:16:53.921 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:20:53.910 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:22:53.917 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:24:53.934 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:26:53.928 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:30:53.966 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:32:53.935 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:34:53.917 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 14:36:53.948 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[I 15:15:19.799 NotebookApp] Starting buffering for d922a7ce-913b-4e20-a7f9-74c9f441956b:9e3a7f5128a54c9c80f5844e03d226d8
+[I 15:15:23.350 NotebookApp] Starting buffering for 37c6d859-f9f1-42c4-9bc9-60bb2109fe32:1eb411f27725490a8589d50f74b4ca05
+[I 15:15:33.736 NotebookApp] Creating new notebook in 
+[I 15:15:36.138 NotebookApp] Kernel started: cab6b1a5-cfb8-40d1-9002-03072db2b4f2, name: spark_start
+[I 15:17:37.194 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 15:18:41.166 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 15:18:51.105 NotebookApp] Starting buffering for d922a7ce-913b-4e20-a7f9-74c9f441956b:6143cf4dfb604a7996078e4780d64c58
+[I 15:19:36.191 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+24/12/06 15:20:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 15:21:36.194 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 15:23:36.178 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 15:25:36.182 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 15:27:36.184 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 15:35:36.303 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[Stage 15:===============>                                       (55 + 2) / 200][Stage 15:====================>                                  (75 + 2) / 200][Stage 15:===========================>                          (101 + 2) / 200][Stage 15:==================================>                   (126 + 2) / 200][Stage 15:=========================================>            (154 + 2) / 200][Stage 15:=================================================>    (185 + 2) / 200]                                                                                [Stage 18:==========================>                            (97 + 2) / 200][Stage 18:====================================>                 (134 + 2) / 200][Stage 18:=============================================>        (170 + 2) / 200][Stage 18:=====================================================>(197 + 2) / 200]                                                                                [Stage 21:====================>                                  (75 + 2) / 200][Stage 21:============================>                         (106 + 2) / 200][Stage 21:======================================>               (143 + 2) / 200][Stage 21:================================================>     (179 + 3) / 200]                                                                                [I 15:37:36.185 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[Stage 24:===========================>                           (99 + 2) / 200][Stage 24:====================================>                 (137 + 2) / 200][Stage 24:==============================================>       (172 + 2) / 200]                                                                                [I 15:39:36.181 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 16:36:46.427 NotebookApp] Starting buffering for cab6b1a5-cfb8-40d1-9002-03072db2b4f2:8abe0556ad6247af85efb4018c3c207e
+[I 16:36:53.624 NotebookApp] Kernel shutdown: d922a7ce-913b-4e20-a7f9-74c9f441956b
+[I 16:36:53.627 NotebookApp] Kernel shutdown: cab6b1a5-cfb8-40d1-9002-03072db2b4f2
+[W 16:36:53.660 NotebookApp] delete /241206_02_DataFrameStart.ipynb
+[W 16:36:53.670 NotebookApp] delete /241206_03_DataFrameAPI.ipynb
+[W 16:36:58.686 NotebookApp] Notebook 24120602_DataFrameStart.ipynb is not trusted
+[I 16:37:00.512 NotebookApp] Kernel started: f194cf38-09f9-46ce-a11f-dfe65e0a1b48, name: spark_start
+[I 16:37:13.486 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[W 16:37:13.487 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 16:37:15.259 NotebookApp] Starting buffering for f194cf38-09f9-46ce-a11f-dfe65e0a1b48:a76ca4b83823497d9ae676bf2a15da20
+[W 16:37:20.989 NotebookApp] Notebook 24120603_DataFrameAPI.ipynb is not trusted
+[I 16:37:22.356 NotebookApp] Kernel started: 80edfb0f-2c86-434a-b84a-1db4ba680e1f, name: spark_start
+24/12/06 16:37:53 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 16:39:22.417 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 16:39:22.418 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 16:41:22.434 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 16:41:22.434 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 16:43:22.383 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 16:43:22.383 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 16:44:15.891 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 16:44:15.892 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 16:45:22.425 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 16:45:22.425 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 16:46:24.194 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 16:46:24.195 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[W 17:17:07.445 NotebookApp] Notebook 241206_01_RDD_단어수세기.ipynb is not trusted
+[I 17:17:28.690 NotebookApp] Starting buffering for 37c6d859-f9f1-42c4-9bc9-60bb2109fe32:bbae0f8b1d96450ea8eb53f3997ba573
+[W 17:17:32.010 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 17:35:33.567 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[W 17:35:33.568 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 17:41:26.611 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[W 17:41:26.611 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 17:49:35.255 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[W 17:49:35.256 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 17:51:33.539 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[W 17:51:33.540 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 17:53:33.550 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[W 17:53:33.551 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 17:55:20.191 NotebookApp] Saving file at /241206_02_DataFrameStart.ipynb
+[W 17:55:20.191 NotebookApp] Notebook 241206_02_DataFrameStart.ipynb is not trusted
+[I 17:55:27.128 NotebookApp] Starting buffering for f194cf38-09f9-46ce-a11f-dfe65e0a1b48:643c6a6e37e9466f8de913868aec1741
+[I 17:55:27.728 NotebookApp] Starting buffering for 80edfb0f-2c86-434a-b84a-1db4ba680e1f:92e58785c87e47aaac4bf930af8f1464
+[C 17:55:46.019 NotebookApp] received signal 15, stopping
+[I 17:55:46.035 NotebookApp] Shutting down 3 kernels
+[I 17:55:46.047 NotebookApp] Kernel shutdown: f194cf38-09f9-46ce-a11f-dfe65e0a1b48
+[I 17:55:46.047 NotebookApp] Kernel shutdown: 80edfb0f-2c86-434a-b84a-1db4ba680e1f
+[I 17:55:46.048 NotebookApp] Kernel shutdown: 37c6d859-f9f1-42c4-9bc9-60bb2109fe32
+[I 17:55:46.097 NotebookApp] Shutting down 0 terminals
+[I 09:08:08.499 NotebookApp] Serving notebooks from local directory: /home/lab06/src
+[I 09:08:08.500 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 09:08:08.500 NotebookApp] http://ip-172-31-13-94:8906/
+[I 09:08:08.500 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:08:15.063 NotebookApp] 302 GET / (211.231.29.166) 0.510000ms
+[W 10:13:08.433 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 10:13:10.766 NotebookApp] Kernel started: bc999555-af88-4e00-80d3-bfe142ab97ef, name: spark_start
+24/12/09 10:13:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 31:=======================>                               (87 + 2) / 200][Stage 31:===============================>                      (117 + 2) / 200][Stage 31:=======================================>              (145 + 2) / 200][Stage 31:================================================>     (178 + 2) / 200]                                                                                [I 10:15:10.847 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:17:11.043 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:17:21.641 NotebookApp] Starting buffering for bc999555-af88-4e00-80d3-bfe142ab97ef:702d28c9619f47f2923e8d68abb46a27
+[I 10:22:17.775 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:25:53.022 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:27:53.024 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:29:53.009 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:31:54.321 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:33:53.037 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:35:53.042 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:37:53.783 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:39:53.008 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:40:25.868 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:45:53.069 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[I 10:59:36.088 NotebookApp] Starting buffering for bc999555-af88-4e00-80d3-bfe142ab97ef:5fe85adee3564beb80438b15dd0c7be9
+[I 11:41:24.850 NotebookApp] Kernel shutdown: bc999555-af88-4e00-80d3-bfe142ab97ef
+[W 11:41:31.068 NotebookApp] delete /241206_03_DataFrameAPI.ipynb
+[W 11:42:17.408 NotebookApp] Notebook 24120603_DataFrameAPI.ipynb is not trusted
+[I 11:42:20.226 NotebookApp] Kernel started: c3b573e4-1f89-4aca-a230-07f5731ec0bd, name: spark_start
+[I 11:42:31.460 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 11:42:31.460 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 11:42:32.055 NotebookApp] Saving file at /241206_03_DataFrameAPI.ipynb
+[W 11:42:32.056 NotebookApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 11:42:35.105 NotebookApp] Starting buffering for c3b573e4-1f89-4aca-a230-07f5731ec0bd:7a31e67093f54a738b64779c76793988
+[W 11:50:58.922 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712655813 (211.231.29.166): No such file or directory: data
+[W 11:50:58.922 NotebookApp] No such file or directory: data
+[W 11:50:58.923 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712655813 (211.231.29.166) 1.000000ms referer=http://13.208.159.5:8906/tree/data
+[W 11:51:00.043 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712655814 (211.231.29.166): No such file or directory: data
+[W 11:51:00.044 NotebookApp] No such file or directory: data
+[W 11:51:00.044 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712655814 (211.231.29.166) 0.980000ms referer=http://13.208.159.5:8906/tree/data
+[W 11:53:26.055 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712741715 (211.231.29.166): No such file or directory: data
+[W 11:53:26.055 NotebookApp] No such file or directory: data
+[W 11:53:26.057 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712741715 (211.231.29.166) 2.040000ms referer=http://13.208.159.5:8906/tree/data
+[W 11:53:26.724 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712741716 (211.231.29.166): No such file or directory: data
+[W 11:53:26.724 NotebookApp] No such file or directory: data
+[W 11:53:26.725 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712741716 (211.231.29.166) 1.390000ms referer=http://13.208.159.5:8906/tree/data
+[W 11:53:28.279 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712741717 (211.231.29.166): No such file or directory: data
+[W 11:53:28.279 NotebookApp] No such file or directory: data
+[W 11:53:28.280 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712741717 (211.231.29.166) 1.370000ms referer=http://13.208.159.5:8906/tree/data
+[W 11:53:34.453 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712741720 (211.231.29.166): No such file or directory: data
+[W 11:53:34.453 NotebookApp] No such file or directory: data
+[W 11:53:34.453 NotebookApp] 404 GET /api/contents/data?type=directory&_=1733712741720 (211.231.29.166) 1.280000ms referer=http://13.208.159.5:8906/tree/data
+[I 11:56:17.370 NotebookApp] Kernel shutdown: c3b573e4-1f89-4aca-a230-07f5731ec0bd
+[W 11:56:17.386 NotebookApp] delete /241202_Spark 환경설정-Copy1.ipynb
+[W 11:56:17.422 NotebookApp] delete /241205_02_partition.ipynb
+[W 11:56:17.424 NotebookApp] delete /241205_01_RDD_persist.ipynb
+[W 11:56:17.425 NotebookApp] delete /241205_03_reduce.2.ipynb
+[W 11:56:17.429 NotebookApp] delete /241205_03_reduce.ipynb
+[W 11:56:17.429 NotebookApp] delete /241206_02_DataFrameStart.ipynb
+[W 11:56:17.457 NotebookApp] delete /241206_03_DataFrameAPI.2.ipynb
+[W 11:56:17.459 NotebookApp] delete /241206_03_DataFrameAPI.ipynb
+[W 11:56:17.463 NotebookApp] delete /Untitled.ipynb
+[W 11:57:38.546 NotebookApp] 404 GET /tree/data (211.231.29.166) 7.970000ms referer=http://13.208.159.5:8906/tree/data
+[W 11:58:10.124 NotebookApp] Notebook DA-learning-course/Spark/241203_01_학생수세기.ipynb is not trusted
+[I 11:58:10.533 NotebookApp] Kernel started: 5cd4c4f7-7102-4c8f-8d22-cb9659cdb2fc, name: spark_start
+[I 11:58:14.226 NotebookApp] Starting buffering for 5cd4c4f7-7102-4c8f-8d22-cb9659cdb2fc:f3471296fa8b42338c2e84e0cd7b0541
+[I 11:58:18.775 NotebookApp] Kernel started: 14a91815-9d30-43ff-a4e6-40321dd7a43c, name: spark_start
+[I 11:58:31.279 NotebookApp] Starting buffering for 14a91815-9d30-43ff-a4e6-40321dd7a43c:e65a9250a3114d49b9d27918cfa99345
