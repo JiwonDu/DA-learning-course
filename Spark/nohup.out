@@ -1872,3 +1872,1868 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 [I 11:58:14.226 NotebookApp] Starting buffering for 5cd4c4f7-7102-4c8f-8d22-cb9659cdb2fc:f3471296fa8b42338c2e84e0cd7b0541
 [I 11:58:18.775 NotebookApp] Kernel started: 14a91815-9d30-43ff-a4e6-40321dd7a43c, name: spark_start
 [I 11:58:31.279 NotebookApp] Starting buffering for 14a91815-9d30-43ff-a4e6-40321dd7a43c:e65a9250a3114d49b9d27918cfa99345
+[I 12:17:01.829 NotebookApp] 302 GET / (211.231.29.166) 0.410000ms
+[W 13:27:39.216 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 13:27:41.872 NotebookApp] Kernel started: a89bff14-39b8-433a-ba8d-f26472851227, name: spark_start
+[W 13:35:12.829 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[W 13:35:12.860 NotebookApp] Trusting notebook /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 13:35:13.311 NotebookApp] Starting buffering for a89bff14-39b8-433a-ba8d-f26472851227:03a1f82049f9479396a8ea86d071bfd2
+[I 13:41:17.886 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 13:41:39.181 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 13:41:40.216 NotebookApp] Starting buffering for a89bff14-39b8-433a-ba8d-f26472851227:95160d6eb01342bdbd5718932b7600a7
+[W 13:41:58.002 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+24/12/09 13:53:52 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 13:54:01.051 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 13:54:01.052 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[Stage 31:===================>                                   (72 + 3) / 200][Stage 31:===========================>                           (99 + 2) / 200][Stage 31:================================>                     (122 + 2) / 200][Stage 31:=========================================>            (153 + 3) / 200][Stage 31:=================================================>    (182 + 2) / 200]                                                                                [Stage 20:============================================>         (163 + 2) / 200]                                                                                [Stage 23:======================================>               (144 + 2) / 200][Stage 23:===================================================>  (191 + 2) / 200]                                                                                [Stage 36:=============================================>        (169 + 2) / 200]                                                                                24/12/09 13:55:20 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+24/12/09 13:55:31 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[I 13:56:00.940 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:02:01.006 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:04:01.018 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[Stage 95:===============================>                      (117 + 2) / 200][Stage 95:===========================================>          (161 + 2) / 200]                                                                                [I 14:12:00.981 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:14:00.934 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:16:01.736 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:18:01.805 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:20:00.954 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:24:03.290 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:26:01.089 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:28:01.036 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:30:01.953 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:32:01.029 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:36:01.627 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:38:02.360 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:42:00.941 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:48:01.001 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:50:00.979 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:51:14.551 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[I 14:52:58.237 NotebookApp] Starting buffering for a89bff14-39b8-433a-ba8d-f26472851227:b3241a5851424016860f19023d08182b
+[W 14:53:01.019 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 14:57:57.445 NotebookApp] Starting buffering for a89bff14-39b8-433a-ba8d-f26472851227:56bbd6a5c30c43da8819c6a0447a95c8
+[W 14:57:59.048 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 14:59:37.472 NotebookApp] Starting buffering for a89bff14-39b8-433a-ba8d-f26472851227:881f69c56a3741febcf8b5fb43a2823b
+[W 15:00:34.702 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:02:37.309 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:02:37.311 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:06:37.785 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:06:37.786 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:08:37.396 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:08:37.398 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:10:37.275 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:10:37.276 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[Stage 177:==========================================>          (159 + 3) / 200]                                                                                [Stage 179:==================================>                  (131 + 2) / 200][Stage 179:===================================================> (194 + 2) / 200]                                                                                [I 15:24:41.105 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:24:41.106 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:24:41.199 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:24:41.200 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:24:45.423 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:24:45.424 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[Stage 181:================================================>    (183 + 2) / 200]                                                                                [I 15:26:37.438 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:26:37.440 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:28:37.351 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:28:37.352 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[Stage 183:=====================================>               (143 + 3) / 200]                                                                                [I 15:30:37.291 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:30:37.292 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[Stage 187:==================================================>  (190 + 2) / 200]                                                                                [I 15:38:37.811 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:38:37.813 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:42:37.409 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:42:37.410 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[Stage 211:================================>                    (122 + 2) / 200][Stage 211:===============================================>     (179 + 2) / 200]                                                                                [I 15:44:37.374 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:44:37.376 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:52:37.729 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:52:37.759 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 15:58:37.370 NotebookApp] Saving file at /DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb
+[W 15:58:37.371 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 16:01:17.169 NotebookApp] Starting buffering for a89bff14-39b8-433a-ba8d-f26472851227:3826afcead0c4219b26b18754eb771d9
+[I 16:02:13.510 NotebookApp] Creating new notebook in /DA-learning-course/Spark
+[I 16:02:16.620 NotebookApp] Kernel started: 8debf1de-a104-4459-8fd1-7ecc832cd681, name: spark_start
+[W 16:03:28.049 NotebookApp] Notebook DA-learning-course/Spark/241206_03_DataFrameAPI.ipynb is not trusted
+[I 16:04:17.677 NotebookApp] Saving file at /DA-learning-course/Spark/241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 16:22:17.699 NotebookApp] Saving file at /DA-learning-course/Spark/241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+24/12/09 16:22:43 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 16:24:04.185 NotebookApp] Saving file at /DA-learning-course/Spark/241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 16:24:08.059 NotebookApp] Starting buffering for 8debf1de-a104-4459-8fd1-7ecc832cd681:9b05b8e0dcd8453b8439d82553903beb
+[I 16:24:10.690 NotebookApp] Kernel restarted: 8debf1de-a104-4459-8fd1-7ecc832cd681
+[I 16:24:10.782 NotebookApp] Restoring connection for 8debf1de-a104-4459-8fd1-7ecc832cd681:9b05b8e0dcd8453b8439d82553903beb
+[I 16:24:10.782 NotebookApp] Replaying 1 buffered messages
+24/12/09 16:24:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 16:24:16.644 NotebookApp] Saving file at /DA-learning-course/Spark/241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 16:26:16.659 NotebookApp] Saving file at /DA-learning-course/Spark/241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 16:27:29.866 NotebookApp] Saving file at /DA-learning-course/Spark/241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 16:27:31.998 NotebookApp] Starting buffering for 8debf1de-a104-4459-8fd1-7ecc832cd681:9b05b8e0dcd8453b8439d82553903beb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 2024-12-09 16:28:57.689 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-12-09 16:28:57.693 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-12-09 16:28:57.698 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-12-09 16:28:57.699 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-09 16:28:57.702 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2024-12-09 16:28:57.702 ServerApp] notebook | extension was successfully linked.
+[I 2024-12-09 16:28:57.703 ServerApp] Writing Jupyter server cookie secret to /home/lab06/.local/share/jupyter/runtime/jupyter_cookie_secret
+[W 2024-12-09 16:28:57.888 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_nbextensions_configurator. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-12-09 16:28:57.888 ServerApp] jupyter_nbextensions_configurator | extension was found and enabled by notebook_shim. Consider moving the extension to Jupyter Server's extension paths.
+[I 2024-12-09 16:28:57.888 ServerApp] jupyter_nbextensions_configurator | extension was successfully linked.
+[I 2024-12-09 16:28:57.888 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-12-09 16:28:57.922 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-12-09 16:28:57.924 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-12-09 16:28:57.925 ServerApp] [jupyter_nbextensions_configurator] enabled 0.6.4
+[I 2024-12-09 16:28:57.925 ServerApp] jupyter_nbextensions_configurator | extension was successfully loaded.
+[I 2024-12-09 16:28:57.925 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-12-09 16:28:57.930 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyterlab
+[I 2024-12-09 16:28:57.930 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/spark_start/share/jupyter/lab
+[I 2024-12-09 16:28:57.931 LabApp] Extension Manager is 'pypi'.
+[I 2024-12-09 16:28:57.977 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-12-09 16:28:57.980 ServerApp] notebook | extension was successfully loaded.
+[I 2024-12-09 16:28:57.981 ServerApp] Serving notebooks from local directory: /home/lab06/src/DA-learning-course/Spark
+[I 2024-12-09 16:28:57.981 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-12-09 16:28:57.981 ServerApp] http://ip-172-31-13-94:8906/tree
+[I 2024-12-09 16:28:57.981 ServerApp]     http://127.0.0.1:8906/tree
+[I 2024-12-09 16:28:57.981 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-12-09 16:28:57.996 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-12-09 16:29:13.163 ServerApp] 302 GET / (@211.231.29.166) 0.41ms
+[W 2024-12-09 16:29:13.228 ServerApp] Clearing invalid/expired login cookie username-13-208-159-5-8906
+[I 2024-12-09 16:29:13.229 JupyterNotebookApp] 302 GET /tree? (@211.231.29.166) 1.41ms
+[I 2024-12-09 16:29:21.969 ServerApp] User 0a40d701d720458c844179d0b37eb071 logged in.
+[I 2024-12-09 16:29:21.970 ServerApp] 302 POST /login?next=%2Ftree%3F (0a40d701d720458c844179d0b37eb071@211.231.29.166) 72.66ms
+[E 2024-12-09 16:29:36.219 ServerApp] Uncaught exception GET /api/nbconvert?1733729376095 (211.231.29.166)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733729376095', version='HTTP/1.1', remote_ip='211.231.29.166')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-09 16:29:36.226 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-09 16:29:36.226 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-09 16:29:36.226 ServerApp] 500 GET /api/nbconvert?1733729376095 (0a40d701d720458c844179d0b37eb071@211.231.29.166) 170.22ms referer=http://13.208.159.5:8906/tree?
+[W 2024-12-09 16:29:36.282 ServerApp] Notebook 241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb is not trusted
+[E 2024-12-09 16:29:39.476 ServerApp] Uncaught exception GET /api/nbconvert?1733729379480 (211.231.29.166)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733729379480', version='HTTP/1.1', remote_ip='211.231.29.166')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-09 16:29:39.477 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-09 16:29:39.477 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-09 16:29:39.477 ServerApp] 500 GET /api/nbconvert?1733729379480 (0a40d701d720458c844179d0b37eb071@211.231.29.166) 40.68ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[W 2024-12-09 16:29:39.626 ServerApp] Notebook 241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb is not trusted
+[I 2024-12-09 16:29:41.143 ServerApp] Kernel started: 0bd2dd07-9ee9-411a-8e73-0f1bdd451956
+[I 2024-12-09 16:29:41.576 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 16:29:41.745 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 16:29:41.912 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[W 2024-12-09 16:29:46.007 ServerApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 2024-12-09 16:29:48.975 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[E 2024-12-09 16:29:49.770 ServerApp] Uncaught exception GET /api/nbconvert?1733729389761 (211.231.29.166)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733729389761', version='HTTP/1.1', remote_ip='211.231.29.166')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-09 16:29:49.770 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-09 16:29:49.771 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241206_03_DataFrameAPI.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-09 16:29:49.771 ServerApp] 500 GET /api/nbconvert?1733729389761 (0a40d701d720458c844179d0b37eb071@211.231.29.166) 41.68ms referer=http://13.208.159.5:8906/notebooks/241206_03_DataFrameAPI.ipynb
+[W 2024-12-09 16:29:50.058 ServerApp] Notebook 241206_03_DataFrameAPI.ipynb is not trusted
+[I 2024-12-09 16:29:52.590 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 16:29:53.422 ServerApp] Kernel started: 4b9039d6-cbeb-4212-ab03-53781d4f1c98
+[I 2024-12-09 16:29:54.503 ServerApp] Connecting to kernel 4b9039d6-cbeb-4212-ab03-53781d4f1c98.
+24/12/09 16:30:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1][Stage 0:===========================================================(1 + 0) / 1]                                                                                [I 2024-12-09 16:31:40.316 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:33:40.460 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:35:40.620 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:36:13.413 ServerApp] 302 GET /login?next=%2Ftree%3F (0a40d701d720458c844179d0b37eb071@211.231.29.166) 0.71ms
+[I 2024-12-09 16:36:15.827 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 16:36:15.942 ServerApp] Connecting to kernel 4b9039d6-cbeb-4212-ab03-53781d4f1c98.
+[W 2024-12-09 16:36:53.514 ServerApp] delete /Learning
+[I 2024-12-09 16:37:21.623 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 16:37:21.726 ServerApp] Connecting to kernel 4b9039d6-cbeb-4212-ab03-53781d4f1c98.
+24/12/09 16:38:35 WARN package: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[I 2024-12-09 16:39:52.358 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:41:52.629 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:45:53.700 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:53:55.076 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:55:55.243 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:57:55.437 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 16:59:55.600 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:01:55.760 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 2:>                                                          (0 + 2) / 2][Stage 2:=============================>                             (1 + 1) / 2][Stage 3:========>                                               (30 + 3) / 200][Stage 3:============>                                           (46 + 3) / 200][Stage 3:==================>                                     (65 + 2) / 200][Stage 3:========================>                               (88 + 3) / 200][Stage 3:===============================>                       (115 + 2) / 200][Stage 3:=======================================>               (142 + 2) / 200][Stage 3:===============================================>       (171 + 2) / 200][Stage 3:===================================================>   (189 + 2) / 200]                                                                                [I 2024-12-09 17:03:55.922 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 5:=============================>                             (1 + 1) / 2][Stage 6:==========================>                             (93 + 2) / 200][Stage 6:==================================>                    (124 + 2) / 200][Stage 6:==============================================>        (168 + 2) / 200]                                                                                [Stage 8:>                                                          (0 + 2) / 2][Stage 8:=============================>                             (1 + 1) / 2][Stage 9:===========================>                            (98 + 2) / 200][Stage 9:======================================>                (140 + 2) / 200][Stage 9:================================================>      (177 + 2) / 200]                                                                                [I 2024-12-09 17:05:56.078 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 11:>                                                         (0 + 2) / 2]                                                                                [I 2024-12-09 17:07:56.218 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:11:56.382 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:13:56.543 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:19:04.307 ServerApp] 302 GET / (@221.155.17.253) 0.44ms
+[W 2024-12-09 17:19:04.344 ServerApp] Clearing invalid/expired login cookie username-13-208-159-5-8906
+[I 2024-12-09 17:19:04.344 JupyterNotebookApp] 302 GET /tree? (@221.155.17.253) 0.72ms
+[W 2024-12-09 17:19:12.498 ServerApp] 401 POST /login?next=%2Ftree%3F (@221.155.17.253) 66.11ms referer=http://13.208.159.5:8906/login?next=%2Ftree%3F
+[I 2024-12-09 17:19:17.925 ServerApp] User d32360df1bf04e038cfede77c3a772c0 logged in.
+[I 2024-12-09 17:19:17.925 ServerApp] 302 POST /login?next=%2Ftree%3F (d32360df1bf04e038cfede77c3a772c0@221.155.17.253) 66.19ms
+[I 2024-12-09 17:19:19.776 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 17:19:19.855 ServerApp] Connecting to kernel 4b9039d6-cbeb-4212-ab03-53781d4f1c98.
+[E 2024-12-09 17:19:21.907 ServerApp] Uncaught exception GET /api/nbconvert?1733732360412 (221.155.17.253)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733732360412', version='HTTP/1.1', remote_ip='221.155.17.253')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-09 17:19:21.908 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-09 17:19:21.908 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-09 17:19:21.908 ServerApp] 500 GET /api/nbconvert?1733732360412 (d32360df1bf04e038cfede77c3a772c0@221.155.17.253) 55.93ms referer=http://13.208.159.5:8906/tree?
+[I 2024-12-09 17:19:22.544 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 17:19:22.645 ServerApp] Connecting to kernel 4b9039d6-cbeb-4212-ab03-53781d4f1c98.
+[E 2024-12-09 17:19:22.656 ServerApp] Uncaught exception GET /api/nbconvert?1733732361149 (221.155.17.253)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733732361149', version='HTTP/1.1', remote_ip='221.155.17.253')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-09 17:19:22.656 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-09 17:19:22.657 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-09 17:19:22.658 ServerApp] 500 GET /api/nbconvert?1733732361149 (d32360df1bf04e038cfede77c3a772c0@221.155.17.253) 69.70ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[I 2024-12-09 17:19:22.923 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 17:19:56.831 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 21:>                                                         (0 + 2) / 2][Stage 21:=============================>                            (1 + 1) / 2][Stage 22:======================>                                (81 + 2) / 200][Stage 22:==============================>                       (112 + 2) / 200][Stage 22:=========================================>            (153 + 2) / 200][Stage 22:====================================================> (196 + 2) / 200]                                                                                [I 2024-12-09 17:25:57.256 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:27:57.422 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 24:=======================================>              (148 + 2) / 200][Stage 24:====================================================> (196 + 2) / 200]                                                                                [I 2024-12-09 17:29:57.572 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:31:58.047 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:33:58.272 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 25:=============================>                            (1 + 1) / 2]                                                                                [Stage 27:>                                                         (0 + 2) / 2][Stage 28:=====================================>                (138 + 2) / 200][Stage 28:====================================================> (193 + 2) / 200]                                                                                [I 2024-12-09 17:35:58.468 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 30:===================================>                  (131 + 3) / 200][Stage 30:==================================================>   (188 + 3) / 200]                                                                                [Stage 32:====================================================> (194 + 3) / 200]                                                                                [I 2024-12-09 17:37:58.706 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 33:>                                                         (0 + 2) / 2][Stage 34:====================================>                 (135 + 2) / 200][Stage 34:===================================================>  (192 + 2) / 200]                                                                                [I 2024-12-09 17:39:58.860 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 35:>                                                         (0 + 2) / 2][Stage 36:==================================================>   (186 + 2) / 200]                                                                                [I 2024-12-09 17:41:59.017 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 37:=============================>                            (1 + 1) / 2][Stage 38:===================================================>  (190 + 2) / 200]                                                                                [I 2024-12-09 17:43:59.223 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:45:59.477 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:47:59.639 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:48:16.745 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:49:15.876 ServerApp] Connecting to kernel 0bd2dd07-9ee9-411a-8e73-0f1bdd451956.
+[I 2024-12-09 17:49:15.964 ServerApp] Connecting to kernel 4b9039d6-cbeb-4212-ab03-53781d4f1c98.
+[I 2024-12-09 17:52:14.805 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-09 17:57:47.822 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[C 2024-12-09 18:02:30.868 ServerApp] received signal 15, stopping
+[I 2024-12-09 18:02:30.868 ServerApp] Shutting down 6 extensions
+[I 2024-12-09 18:02:30.869 ServerApp] Shutting down 2 kernels
+[I 2024-12-09 18:02:30.869 ServerApp] Kernel shutdown: 0bd2dd07-9ee9-411a-8e73-0f1bdd451956
+[I 2024-12-09 18:02:30.869 ServerApp] Kernel shutdown: 4b9039d6-cbeb-4212-ab03-53781d4f1c98
+[I 2024-12-10 09:45:56.691 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-12-10 09:45:56.696 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-12-10 09:45:56.700 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-12-10 09:45:56.702 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-12-10 09:45:56.705 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2024-12-10 09:45:56.705 ServerApp] notebook | extension was successfully linked.
+[W 2024-12-10 09:45:57.098 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_nbextensions_configurator. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-12-10 09:45:57.098 ServerApp] jupyter_nbextensions_configurator | extension was found and enabled by notebook_shim. Consider moving the extension to Jupyter Server's extension paths.
+[I 2024-12-10 09:45:57.098 ServerApp] jupyter_nbextensions_configurator | extension was successfully linked.
+[I 2024-12-10 09:45:57.098 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-12-10 09:45:57.171 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-12-10 09:45:57.173 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-12-10 09:45:57.173 ServerApp] [jupyter_nbextensions_configurator] enabled 0.6.4
+[I 2024-12-10 09:45:57.173 ServerApp] jupyter_nbextensions_configurator | extension was successfully loaded.
+[I 2024-12-10 09:45:57.175 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-12-10 09:45:57.183 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyterlab
+[I 2024-12-10 09:45:57.183 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/spark_start/share/jupyter/lab
+[I 2024-12-10 09:45:57.183 LabApp] Extension Manager is 'pypi'.
+[I 2024-12-10 09:45:57.250 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-12-10 09:45:57.254 ServerApp] notebook | extension was successfully loaded.
+[I 2024-12-10 09:45:57.254 ServerApp] Serving notebooks from local directory: /home/lab06/src/DA-learning-course/Spark
+[I 2024-12-10 09:45:57.254 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-12-10 09:45:57.254 ServerApp] http://ip-172-31-13-94:8906/tree
+[I 2024-12-10 09:45:57.254 ServerApp]     http://127.0.0.1:8906/tree
+[I 2024-12-10 09:45:57.254 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-12-10 09:45:57.271 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-12-10 09:46:07.466 ServerApp] 302 GET / (@211.231.29.166) 0.37ms
+[E 2024-12-10 09:46:14.582 ServerApp] Uncaught exception GET /api/nbconvert?1733791574082 (211.231.29.166)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733791574082', version='HTTP/1.1', remote_ip='211.231.29.166')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 09:46:14.593 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 09:46:14.594 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 09:46:14.594 ServerApp] 500 GET /api/nbconvert?1733791574082 (0a40d701d720458c844179d0b37eb071@211.231.29.166) 365.97ms referer=http://13.208.159.5:8906/tree?
+[E 2024-12-10 09:46:17.606 ServerApp] Uncaught exception GET /api/nbconvert?1733791577471 (211.231.29.166)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733791577471', version='HTTP/1.1', remote_ip='211.231.29.166')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 09:46:17.606 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 09:46:17.606 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 09:46:17.606 ServerApp] 500 GET /api/nbconvert?1733791577471 (0a40d701d720458c844179d0b37eb071@211.231.29.166) 40.78ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[I 2024-12-10 09:46:19.820 ServerApp] Kernel started: 7e98d41c-3bad-4316-9d9b-174390ef482f
+[I 2024-12-10 09:46:20.381 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[I 2024-12-10 09:46:20.485 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[I 2024-12-10 09:46:20.643 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[I 2024-12-10 09:46:21.184 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[I 2024-12-10 09:49:15.123 ServerApp] 302 GET / (@221.155.17.253) 0.30ms
+[I 2024-12-10 09:49:16.425 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 09:49:23.653 ServerApp] Uncaught exception GET /api/nbconvert?1733791763041 (221.155.17.253)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733791763041', version='HTTP/1.1', remote_ip='221.155.17.253')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 09:49:23.654 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 09:49:23.654 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 09:49:23.654 ServerApp] 500 GET /api/nbconvert?1733791763041 (d32360df1bf04e038cfede77c3a772c0@221.155.17.253) 57.61ms referer=http://13.208.159.5:8906/tree?
+[I 2024-12-10 09:49:24.224 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 09:49:24.325 ServerApp] Uncaught exception GET /api/nbconvert?1733791763710 (221.155.17.253)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733791763710', version='HTTP/1.1', remote_ip='221.155.17.253')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 09:49:24.326 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 09:49:24.327 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 09:49:24.327 ServerApp] 500 GET /api/nbconvert?1733791763710 (d32360df1bf04e038cfede77c3a772c0@221.155.17.253) 62.39ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[I 2024-12-10 09:49:24.674 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[I 2024-12-10 09:51:24.550 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 09:52:45.699 ServerApp] 302 GET / (@175.118.53.87) 0.29ms
+[I 2024-12-10 09:52:45.747 JupyterNotebookApp] 302 GET /tree? (@175.118.53.87) 0.37ms
+[I 2024-12-10 09:52:52.145 ServerApp] User dd66125f18534f2abdad1e1cfae26b48 logged in.
+[I 2024-12-10 09:52:52.145 ServerApp] 302 POST /login?next=%2Ftree%3F (dd66125f18534f2abdad1e1cfae26b48@175.118.53.87) 80.26ms
+[I 2024-12-10 09:52:54.906 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 09:52:57.314 ServerApp] Uncaught exception GET /api/nbconvert?1733791977857 (175.118.53.87)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733791977857', version='HTTP/1.1', remote_ip='175.118.53.87')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 09:52:57.314 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 09:52:57.315 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 09:52:57.315 ServerApp] 500 GET /api/nbconvert?1733791977857 (dd66125f18534f2abdad1e1cfae26b48@175.118.53.87) 54.52ms referer=http://13.208.159.5:8906/tree?
+[I 2024-12-10 09:52:58.900 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 09:52:59.075 ServerApp] Uncaught exception GET /api/nbconvert?1733791979592 (175.118.53.87)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733791979592', version='HTTP/1.1', remote_ip='175.118.53.87')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 09:52:59.075 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 09:52:59.076 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 09:52:59.076 ServerApp] 500 GET /api/nbconvert?1733791979592 (dd66125f18534f2abdad1e1cfae26b48@175.118.53.87) 56.72ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[I 2024-12-10 09:52:59.981 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[I 2024-12-10 09:58:28.332 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+24/12/10 09:58:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2024-12-10 10:00:28.437 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:02:28.580 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 1:>                                                          (0 + 2) / 2][Stage 2:============>                                           (46 + 2) / 200][Stage 2:===================>                                    (68 + 2) / 200][Stage 2:=========================>                              (91 + 2) / 200][Stage 2:==============================>                        (112 + 2) / 200][Stage 2:======================================>                (139 + 2) / 200][Stage 2:============================================>          (163 + 2) / 200][Stage 2:=====================================================> (196 + 2) / 200]                                                                                [Stage 4:=============================>                             (1 + 1) / 2]                                                                                [Stage 14:>                                                         (0 + 2) / 2][Stage 15:==============>                                        (53 + 2) / 200][Stage 15:=======================>                               (86 + 2) / 200][Stage 15:=================================>                    (123 + 2) / 200][Stage 15:===========================================>          (162 + 3) / 200]                                                                                [Stage 16:=============================>                            (1 + 1) / 2][Stage 17:========================>                              (89 + 2) / 200][Stage 17:====================================>                 (134 + 3) / 200][Stage 17:===============================================>      (177 + 2) / 200]                                                                                [Stage 18:>                                                         (0 + 2) / 2][Stage 18:=============================>                            (1 + 1) / 2]                                                                                [Stage 20:>                                                         (0 + 2) / 2][Stage 21:==========================================>           (157 + 3) / 200]                                                                                [Stage 23:==================================>                   (126 + 2) / 200][Stage 23:==============================================>       (174 + 2) / 200]                                                                                [Stage 25:==================================================>   (188 + 2) / 200]                                                                                [Stage 26:>                                                         (0 + 2) / 2][Stage 27:====================================>                 (135 + 2) / 200][Stage 27:==================================================>   (186 + 2) / 200]                                                                                [Stage 30:>                                                         (0 + 2) / 2][Stage 31:================================================>     (179 + 2) / 200]                                                                                24/12/10 10:04:04 WARN package: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[I 2024-12-10 10:04:28.771 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:06:29.010 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 32:=============================>                            (1 + 1) / 2][Stage 33:==============================================>       (174 + 2) / 200]                                                                                [I 2024-12-10 10:08:29.196 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 36:>                                                         (0 + 2) / 2][Stage 37:===================================================>  (191 + 2) / 200]                                                                                [I 2024-12-10 10:10:29.555 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 41:=============================>                            (1 + 1) / 2][Stage 42:================================================>     (179 + 2) / 200]                                                                                [I 2024-12-10 10:14:29.988 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 44:>                                                         (0 + 2) / 2][Stage 45:====================================================> (194 + 2) / 200]                                                                                [I 2024-12-10 10:16:30.539 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:18:30.701 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 46:>                                                         (0 + 2) / 2]                                                                                [Stage 48:>                                                         (0 + 2) / 2][Stage 48:=============================>                            (1 + 1) / 2][Stage 49:================================================>     (180 + 2) / 200]                                                                                [Stage 51:=================================================>    (182 + 2) / 200]                                                                                [I 2024-12-10 10:20:31.703 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 53:>                                                         (0 + 2) / 2][Stage 53:=============================>                            (1 + 1) / 2][Stage 54:===============================================>      (177 + 2) / 200]                                                                                [Stage 56:==================================>                   (129 + 2) / 200][Stage 56:====================================================> (195 + 2) / 200]                                                                                [Stage 58:>                                                         (0 + 2) / 2][Stage 58:=============================>                            (1 + 1) / 2][Stage 59:====================================================> (194 + 2) / 200]                                                                                [Stage 61:=============================================>        (169 + 2) / 200]                                                                                [I 2024-12-10 10:22:32.223 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:23:05.682 ServerApp] Malformed HTTP message from 61.76.43.89: no colon in header line
+[Stage 66:===============================================>      (176 + 2) / 200]                                                                                [I 2024-12-10 10:23:08.653 ServerApp] 302 GET / (@61.76.43.89) 0.29ms
+[I 2024-12-10 10:23:08.699 JupyterNotebookApp] 302 GET /tree? (@61.76.43.89) 0.37ms
+[I 2024-12-10 10:23:15.067 ServerApp] User 0636b224d94241ebbf2e1d519a4d962a logged in.
+[I 2024-12-10 10:23:15.067 ServerApp] 302 POST /login?next=%2Ftree%3F (0636b224d94241ebbf2e1d519a4d962a@61.76.43.89) 65.93ms
+[I 2024-12-10 10:23:16.694 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 10:23:18.650 ServerApp] Uncaught exception GET /api/nbconvert?1733793798570 (61.76.43.89)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733793798570', version='HTTP/1.1', remote_ip='61.76.43.89')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 10:23:18.650 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 10:23:18.651 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 10:23:18.651 ServerApp] 500 GET /api/nbconvert?1733793798570 (0636b224d94241ebbf2e1d519a4d962a@61.76.43.89) 56.03ms referer=http://13.208.159.5:8906/tree?
+[I 2024-12-10 10:23:19.228 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 10:23:19.325 ServerApp] Uncaught exception GET /api/nbconvert?1733793799210 (61.76.43.89)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733793799210', version='HTTP/1.1', remote_ip='61.76.43.89')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 10:23:19.326 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 10:23:19.326 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 10:23:19.326 ServerApp] 500 GET /api/nbconvert?1733793799210 (0636b224d94241ebbf2e1d519a4d962a@61.76.43.89) 87.47ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[I 2024-12-10 10:23:19.598 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[I 2024-12-10 10:24:32.565 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 68:>                                                         (0 + 2) / 2]                                                                                [Stage 71:=============================================>        (168 + 2) / 200]                                                                                [Stage 73:=============================>                            (1 + 1) / 2]                                                                                [Stage 78:=============================>                            (1 + 1) / 2]                                                                                [I 2024-12-10 10:26:32.801 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:28:33.031 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:29:43.170 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:30:09.672 ServerApp] 302 GET / (@58.127.198.35) 0.27ms
+[I 2024-12-10 10:30:09.703 JupyterNotebookApp] 302 GET /tree? (@58.127.198.35) 0.37ms
+[I 2024-12-10 10:30:21.501 ServerApp] User 740a1b23788446a9b3dbe4a5e3863216 logged in.
+[I 2024-12-10 10:30:21.502 ServerApp] 302 POST /login?next=%2Ftree%3F (740a1b23788446a9b3dbe4a5e3863216@58.127.198.35) 67.33ms
+[I 2024-12-10 10:30:23.001 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 10:30:28.157 ServerApp] Uncaught exception GET /api/nbconvert?1733794228384 (58.127.198.35)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733794228384', version='HTTP/1.1', remote_ip='58.127.198.35')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 10:30:28.158 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 10:30:28.158 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 10:30:28.158 ServerApp] 500 GET /api/nbconvert?1733794228384 (740a1b23788446a9b3dbe4a5e3863216@58.127.198.35) 59.95ms referer=http://13.208.159.5:8906/tree?
+[I 2024-12-10 10:30:28.733 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 10:30:28.838 ServerApp] Uncaught exception GET /api/nbconvert?1733794229071 (58.127.198.35)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733794229071', version='HTTP/1.1', remote_ip='58.127.198.35')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 10:30:28.840 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 10:30:28.840 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 10:30:28.840 ServerApp] 500 GET /api/nbconvert?1733794229071 (740a1b23788446a9b3dbe4a5e3863216@58.127.198.35) 62.13ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[I 2024-12-10 10:30:29.104 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[Stage 83:>                                                         (0 + 2) / 2][Stage 84:=============================================>        (167 + 2) / 200]                                                                                [I 2024-12-10 10:33:43.524 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:37:02.011 ServerApp] 302 GET / (@222.235.87.13) 0.28ms
+[I 2024-12-10 10:37:02.046 JupyterNotebookApp] 302 GET /tree? (@222.235.87.13) 0.35ms
+[I 2024-12-10 10:37:45.045 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[Stage 85:>                                                         (0 + 2) / 2][Stage 86:=================================================>    (184 + 2) / 200]                                                                                [I 2024-12-10 10:39:45.329 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:41:07.812 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:41:17.588 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 10:52:59.084 ServerApp] 302 GET / (@114.203.150.38) 0.28ms
+[I 2024-12-10 10:52:59.115 JupyterNotebookApp] 302 GET /tree? (@114.203.150.38) 0.36ms
+[I 2024-12-10 10:53:13.116 ServerApp] User cea5bd43a10c44ee82476a55702a86ed logged in.
+[I 2024-12-10 10:53:13.116 ServerApp] 302 POST /login?next=%2Ftree%3F (cea5bd43a10c44ee82476a55702a86ed@114.203.150.38) 65.52ms
+[I 2024-12-10 10:53:14.907 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 10:53:16.964 ServerApp] Uncaught exception GET /api/nbconvert?1733795596889 (114.203.150.38)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733795596889', version='HTTP/1.1', remote_ip='114.203.150.38')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 10:53:16.964 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 10:53:16.965 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 10:53:16.965 ServerApp] 500 GET /api/nbconvert?1733795596889 (cea5bd43a10c44ee82476a55702a86ed@114.203.150.38) 55.48ms referer=http://13.208.159.5:8906/tree?
+[I 2024-12-10 10:53:17.613 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 10:53:17.703 ServerApp] Uncaught exception GET /api/nbconvert?1733795597621 (114.203.150.38)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733795597621', version='HTTP/1.1', remote_ip='114.203.150.38')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 10:53:17.703 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 10:53:17.704 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 10:53:17.704 ServerApp] 500 GET /api/nbconvert?1733795597621 (cea5bd43a10c44ee82476a55702a86ed@114.203.150.38) 81.30ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[I 2024-12-10 10:53:18.129 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[I 2024-12-10 11:23:34.163 ServerApp] Saving file at /241209_01_sf_fire_calls_소방서콜데이터분석보고서.ipynb
+[I 2024-12-10 11:24:04.646 ServerApp] 302 GET / (@218.38.167.157) 0.46ms
+[I 2024-12-10 11:24:04.677 JupyterNotebookApp] 302 GET /tree? (@218.38.167.157) 0.35ms
+[I 2024-12-10 11:24:10.249 ServerApp] User 05a3c152954b4fe68e3a363ad6f3ee96 logged in.
+[I 2024-12-10 11:24:10.250 ServerApp] 302 POST /login?next=%2Ftree%3F (05a3c152954b4fe68e3a363ad6f3ee96@218.38.167.157) 67.80ms
+[I 2024-12-10 11:24:11.660 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 11:24:17.963 ServerApp] Uncaught exception GET /api/nbconvert?1733797457207 (218.38.167.157)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733797457207', version='HTTP/1.1', remote_ip='218.38.167.157')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 11:24:17.963 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 11:24:17.964 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/tree?",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 11:24:17.964 ServerApp] 500 GET /api/nbconvert?1733797457207 (05a3c152954b4fe68e3a363ad6f3ee96@218.38.167.157) 41.38ms referer=http://13.208.159.5:8906/tree?
+[I 2024-12-10 11:24:18.877 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
+[E 2024-12-10 11:24:19.020 ServerApp] Uncaught exception GET /api/nbconvert?1733797458245 (218.38.167.157)
+    HTTPServerRequest(protocol='http', host='13.208.159.5:8906', method='GET', uri='/api/nbconvert?1733797458245', version='HTTP/1.1', remote_ip='218.38.167.157')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[W 2024-12-10 11:24:19.020 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_server/services/nbconvert/handlers.py", line 41, in get
+        exporters = await run_sync(base.get_export_names)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/to_thread.py", line 56, in run_sync
+        return await get_async_backend().run_sync_in_worker_thread(
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 2364, in run_sync_in_worker_thread
+        return await future
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 864, in run
+        result = context.run(func, *args)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 145, in get_export_names
+        e = get_exporter(exporter_name)(config=config)
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 106, in get_exporter
+        exporter = items[0].load()
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/importlib_metadata/__init__.py", line 189, in load
+        module = import_module(match.group('module'))
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+      File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/__init__.py", line 5, in <module>
+        from .collapsible_headings import ExporterCollapsibleHeadings
+      File "/home/ubuntu/anaconda3/envs/spark_start/lib/python3.8/site-packages/jupyter_contrib_nbextensions/nbconvert_support/collapsible_headings.py", line 6, in <module>
+        from notebook.services.config import ConfigManager
+    ModuleNotFoundError: No module named 'notebook.services'
+[E 2024-12-10 11:24:19.021 ServerApp] {
+      "Host": "13.208.159.5:8906",
+      "Accept": "*/*",
+      "Referer": "http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-10 11:24:19.021 ServerApp] 500 GET /api/nbconvert?1733797458245 (05a3c152954b4fe68e3a363ad6f3ee96@218.38.167.157) 61.06ms referer=http://13.208.159.5:8906/notebooks/241209_01_sf_fire_calls_%EC%86%8C%EB%B0%A9%EC%84%9C%EC%BD%9C%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb
+[I 2024-12-10 11:24:19.497 ServerApp] Connecting to kernel 7e98d41c-3bad-4316-9d9b-174390ef482f.
