@@ -3,5 +3,6 @@
 .ipynb_checkpoints/
 data/
 Spark/data/
-w
-Spark/data/
+Spark/spark-warehouse/
+nohup.out
+
